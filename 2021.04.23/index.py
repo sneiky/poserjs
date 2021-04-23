@@ -28,6 +28,7 @@ def index():
     print(s)
     #
     qs = r'''
+<<<<<<< HEAD
     CREATE TABLE `Themes` (
     `Механика` varchar(256) COLLATE utf8_unicode_ci NOT NULL,
     `Кинематика криволинейного движения` varchar(256) COLLATE utf8_unicode_ci NOT NULL,
@@ -59,6 +60,18 @@ def index():
     )
     '''
 
+=======
+    CREATE TABLE `ma` (
+    `magi` varchar(256) COLLATE utf8_unicode_ci NOT NULL,
+    `man1` varchar(256) COLLATE utf8_unicode_ci DEFAULT NULL,
+    PRIMARY KEY (`magi`)
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+    INSERT INTO ma VALUES("bhfkeb","3");
+    INSERT INTO ma VALUES("eelfdt","2");
+    INSERT INTO ma VALUES("pvywoy","4");
+    INSERT INTO ma VALUES("vdxueu","5");
+    '''
+>>>>>>> e01354c5e39ab90207fa94896c60b1410adef4ef
     #
     connection = pymysql.connect(host='localhost',
         user='lala',
