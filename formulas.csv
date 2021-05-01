@@ -1,4 +1,4 @@
-la	s_x=x+x_0
+lata	s_x=x+x_0
 la	\vec{&upsilon;}=\frac{\vec{s}}{t}
 la	&upsilon;_{ср}=\frac{s}{t}
 la	x=x_0+&upsilon;_xt
@@ -9,140 +9,140 @@ la	\vec{s}=\vec{&upsilon;_0}t+\frac{\vec{a}t^2}{2}
 la	s_x=\frac{&upsilon;_x^2-&upsilon;_{0x}^2}{2a_x}
 la	x=x_0+&upsilon;_0t+\frac{at^2}{2}
 la	T=\frac{t}{N}
-la	\[&nu; = \frac{N}{t}\]
-la	\[T = \frac{1}{&nu;}\]
-la	\[&upsilon; = \frac{s}{t}\]
-la	\[&upsilon; = \frac{2\pi r}{T}\]
-la	\[&upsilon; = 2 \pi r &nu;\]
-la	\[\omega = \frac{\varphi}{t}\]
-la	\[\omega = 2 \pi &nu; \]
-la	\[&nu; = \omega r \]
-la	\[a = \frac{&upsilon;^2}{r}\]
-la	\[a = \omega^2 r \]
+la	&nu; = \frac{N}{t}
+la	T = \frac{1}{&nu;}
+la	&upsilon; = \frac{s}{t}
+la	&upsilon; = \frac{2\pi r}{T}
+la	&upsilon; = 2 \pi r &nu;
+la	\omega = \frac{\varphi}{t}
+la	\omega = 2 \pi &nu;
+la	&nu; = \omega r
+la	a = \frac{&upsilon;^2}{r}
+la	a = \omega^2 r
 la	
-la	\[\vec{a} = \frac{\vec{F_R}}{m}\]
-la	\[\vec{F_1} = -\vec{F_2}\]
-la	\[F_{тр} = &mu;N\]
-la	\[F_{упр x} = -kx\]
-la	\[\vec{F} = m\vec{g}\]
-la	\[\vec{P} = m\vec{g}\]
-la	\[\vec{P} = m(\vec{g}-\vec{a})\]
-la	\[F = G\frac{m_1m_2}{r^2}\]
-la	\[g = G\frac{M}{(R+h)^2}\]
-la	\[&upsilon; = \sqrt{G\frac{M}{R}}\]
-la	\[\vec{F}t = m\vec{&upsilon;}-m\vec{&upsilon;_0}\]
-la	\[m_1\vec{&upsilon;_1} +m_2\vec{&upsilon;_2} = m_1\vec{{&upsilon;_1}^\prime} +m_2\vec{{&upsilon;_2}^\prime}\]
+la	\vec{a} = \frac{\vec{F_R}}{m}
+la	\vec{F_1} = -\vec{F_2}
+la	F_{тр} = &mu;N
+la	F_{упр x} = -kx
+la	\vec{F} = m\vec{g}
+la	\vec{P} = m\vec{g}
+la	\vec{P} = m(\vec{g}-\vec{a})
+la	F = G\frac{m_1m_2}{r^2}
+la	g = G\frac{M}{(R+h)^2}
+la	&upsilon; = \sqrt{G\frac{M}{R}}
+la	\vec{F}t = m\vec{&upsilon;}-m\vec{&upsilon;_0}
+la	m_1\vec{&upsilon;_1} +m_2\vec{&upsilon;_2} = m_1\vec{{&upsilon;_1}^\prime} +m_2\vec{{&upsilon;_2}^\prime}
 la	
-la	\[M = Fd \]
-la	\[\sum_{i=1}^m \vec{F}_i = \vec{0}\]
-la	\[\sum_{i=1}^n M_i = 0\]
+la	M = Fd 
+la	\sum_{i=1}^m \vec{F}_i = \vec{0}
+la	\sum_{i=1}^n M_i = 0
 la	
-la	\[&rho; = \frac{m}{V}\]
-la	\[p = \frac{F}{S}\]
-la	\[p = &rho;gh\]
-la	\[F_{дно} = &rho;gHS_{дно}\]
-la	\[F_{бок} = \frac{1}{2}&rho;gHS_{бок}\]
-la	\[\frac{h_1}{h_2} = \frac{&rho;_1}{&rho;_2}\]
-la	\[F_a = &rho;gV\]
-la	\[F_2 = F_1 \frac{S_2}{S_1}\]
+la	&rho; = \frac{m}{V}
+la	p = \frac{F}{S}
+la	p = &rho;gh
+la	F_{дно} = &rho;gHS_{дно}
+la	F_{бок} = \frac{1}{2}&rho;gHS_{бок}
+la	\frac{h_1}{h_2} = \frac{&rho;_1}{&rho;_2}
+la	F_a = &rho;gV
+la	F_2 = F_1 \frac{S_2}{S_1}
 la	
-la	\[A = FS\cdot\cos\cdot\alpha\]
-la	\[A = -F_{тр}s\]
-la	\[A = mg(h_1 - h_2)\]
-la	\[A = \frac{k}{2}(x_1^2 - x_2^2)\]
-la	\[N = F &upsilon;\]
-la	\[E_к = \frac{m&upsilon;^2}{2}\]
-la	\[E_п = mgh\]
-la	\[E_п = \frac{kx_2}{2}\]
-la	\[E = E_п + E_к = const\]
-la	\[A = \frac{m&upsilon;_2^2}{2} - \frac{m&upsilon;_1^2}{2}\]
-la	\[&#951 = \frac{A_п}{A}\]
-la	\[&#951 = \frac{N_п}{N}\]
+la	A = FS\cdot\cos\cdot\alpha
+la	A = -F_{тр}s
+la	A = mg(h_1 - h_2)
+la	A = \frac{k}{2}(x_1^2 - x_2^2)
+la	N = F &upsilon;
+la	E_к = \frac{m&upsilon;^2}{2}
+la	E_п = mgh
+la	E_п = \frac{kx_2}{2}
+la	E = E_п + E_к = const
+la	A = \frac{m&upsilon;_2^2}{2} - \frac{m&upsilon;_1^2}{2}
+la	&#951 = \frac{A_п}{A}
+la	&#951 = \frac{N_п}{N}
 la	
-la	\[F = k \frac{\vert q_1  \vert q_2}{&epsilon; r^2}\]
-la	\[k = \frac{1}{4\pi &epsilon;_0} = 9 \cdot10^9 \frac{&Iota; \cdot \iota}{\vert E \vert ё^2}\]
-la	\[\vec E = \frac{\vec F}{q}\]
-la	\[E = \frac{\vert q \vert}{&epsilon; r^2}\]
-la	\[E = k \frac{\vert q_ш \vert}{&epsilon; (R+r)^2}\]
-la	\[\vec E = \sum_{i = 1}^n \vec E_i\]
-la	\[&phi; = \frac{W_p}{q}\]
-la	\[&phi; = \frac k{q}{&epsilon;r}\]
-la	\[&phi; = k \frac{q_ш}{&epsilon;(R+r)}\]
-la	\[&phi; = E \cdot d\]
-la	\[&phi; = \sum_{i = 1}^n &phi;_i\]
-la	\[A = q(&phi;_1 - &phi;_2) = qU\]
-la	\[E = \frac{U}{d}\]
-la	\[W = k \frac{q_1 \cdot q_2}{r}\]
-la	\[C = \frac qU \]
-la	\[C = \frac{&epsilon;_0 &epsilon; S}{d}\]
-la	\[C = \sum_{i = 1}^n C_i \]
-la	\[\frac 1C = \frac {qU}{2} = \frac{CU^2}{2} = \frac{q^2}{2C}\]
-la	\[&sigma; = \frac qS \]
+la	F = k \frac{\vert q_1  \vert q_2}{&epsilon; r^2}
+la	k = \frac{1}{4\pi &epsilon;_0} = 9 \cdot10^9 \frac{&Iota; \cdot \iota}{\vert E \vert ё^2}
+la	\vec E = \frac{\vec F}{q}
+la	E = \frac{\vert q \vert}{&epsilon; r^2}
+la	E = k \frac{\vert q_ш \vert}{&epsilon; (R+r)^2}
+la	\vec E = \sum_{i = 1}^n \vec E_i
+la	&phi; = \frac{W_p}{q}
+la	&phi; = \frac k{q}{&epsilon;r}
+la	&phi; = k \frac{q_ш}{&epsilon;(R+r)}
+la	&phi; = E \cdot d
+la	&phi; = \sum_{i = 1}^n &phi;_i
+la	A = q(&phi;_1 - &phi;_2) = qU
+la	E = \frac{U}{d}
+la	W = k \frac{q_1 \cdot q_2}{r}
+la	C = \frac qU 
+la	C = \frac{&epsilon;_0 &epsilon; S}{d}
+la	C = \sum_{i = 1}^n C_i 
+la	\frac 1C = \frac {qU}{2} = \frac{CU^2}{2} = \frac{q^2}{2C}
+la	&sigma; = \frac qS 
 la	
-la	\[I = \frac qt \]
-la	\[I = q_0 n&upsilon;S\]
-la	\[j = \frac IS\]
-la	\[I = \frac UR\]
-la	\[R = p \frac lS \]
-la	\[R = R_0(1+at)\]
-la	\[R = \sum_{i=1}^n R_i\]
-la	\[\frac 1R = \sum_{i = 1}^n \frac 1R_i\]
-la	\[A = IUt = I^2 Rt = \frac UR t\]
-la	\[&Epsilon; = \frac {A_{cm}}{q}\]
-la	\[I = \frac {E}{R+r}\]
-la	\[I = \frac{nE}{R+nr}\]
-la	\[I = \frac{E}{R+\frac{r}{n}}\]
-la	\[m = kIT\]
-la	\[\hat{A} = \frac {M_max}{IS} = \frac{F_max}{I \cdot \Delta l}\]
-la	\[F = IB\Delta l \sin \alpha\]
-la	\[F =\vert q \vert &upsilon; B \sin \alpha \]
-la	\[m &upsilon; = qBR \]
-la	\[&Phi; = BS \cos \alpha \]
+la	I = \frac qt 
+la	I = q_0 n&upsilon;S
+la	j = \frac IS
+la	I = \frac UR
+la	R = p \frac lS 
+la	R = R_0(1+at)
+la	R = \sum_{i=1}^n R_i
+la	\frac 1R = \sum_{i = 1}^n \frac 1R_i
+la	A = IUt = I^2 Rt = \frac UR t
+la	&Epsilon; = \frac {A_{cm}}{q}
+la	I = \frac {E}{R+r}
+la	I = \frac{nE}{R+nr}
+la	I = \frac{E}{R+\frac{r}{n}}
+la	m = kIT
+la	\hat{A} = \frac {M_max}{IS} = \frac{F_max}{I \cdot \Delta l}
+la	F = IB\Delta l \sin \alpha
+la	F =\vert q \vert &upsilon; B \sin \alpha 
+la	m &upsilon; = qBR 
+la	&Phi; = BS \cos \alpha 
 la	
-la	\[&epsilon;_i = -\frac{\Delta \Phi}{\Delta t}\]
-la	\[\Phi =  LI\]
-la	\[&epsilon;_m = \omega \Phi_m \]
-la	\[&epsilon;_{is} = -\frac{\Delta \Phi}{\Delta t} = -L\frac{\Delta I}{\Delta t}\]
-la	\[&epsilon; = B&upsilon;l \sin \alpha\]
-la	\[q = \frac{\Delta \Phi}{R}\]
+la	&epsilon;_i = -\frac{\Delta \Phi}{\Delta t}
+la	\Phi =  LI
+la	&epsilon;_m = \omega \Phi_m 
+la	&epsilon;_{is} = -\frac{\Delta \Phi}{\Delta t} = -L\frac{\Delta I}{\Delta t}
+la	&epsilon; = B&upsilon;l \sin \alpha
+la	q = \frac{\Delta \Phi}{R}
 la	
-la	\[q = q_m \sin(\omega t +&phi;_0)\]
-la	\[u = U_m \sin(\omega t +&phi;_0)\]
-la	\[i = I_m \cos(\omega t +&phi;_0)\]
-la	\[I_m = \omega q_m\]
-la	\[T = 2\pi \sqrt{LC}\]
-la	\[W_m = \frac{Li^2}{2}\]
-la	\[\frac{q^2_m}{2C} = \frac{q^2}{2C} + \frac{Li^2}{2} = \frac{LI^2_m}{2}\]
-la	\[I_{&sigma;} = \frac{U_m}{\sqrt 2} \]
-la	\[U_&sigma; = \frac{U_m}{\sqrt 2}\]
-la	\[X_L = \omega L\]
-la	\[X_C = \frac{1}{\omega C}\]
-la	\[Z = \sqrt{R^2 + (X_L - X_C)^2}\]
-la	\[I = \frac UZ\]
+la	q = q_m \sin(\omega t +&phi;_0)
+la	u = U_m \sin(\omega t +&phi;_0)
+la	i = I_m \cos(\omega t +&phi;_0)
+la	I_m = \omega q_m
+la	T = 2\pi \sqrt{LC}
+la	W_m = \frac{Li^2}{2}
+la	\frac{q^2_m}{2C} = \frac{q^2}{2C} + \frac{Li^2}{2} = \frac{LI^2_m}{2}
+la	I_{&sigma;} = \frac{U_m}{\sqrt 2} 
+la	U_&sigma; = \frac{U_m}{\sqrt 2}
+la	X_L = \omega L
+la	X_C = \frac{1}{\omega C}
+la	Z = \sqrt{R^2 + (X_L - X_C)^2}
+la	I = \frac UZ
 la	
-la	\[\frac{sin \alpha}{sin \beta} = \frac{n_2}{n_1} =
-la	\frac{&upsilon;_1}{&upsilon;_2}\]
-la	\[n = \frac c&upsilon;\]
-la	\[\pm\frac 1F = \pm \frac 1f \pm \frac 1d\]
-la	\[D = \frac 1F\]
-la	\[\Gamma = \frac Hh = \frac fd \]
-la	\[\Delta = (2k  + 1) \frac \lambda 2\]
-la	\[\Delta = k\lambda\]
-la	\[d sin &phi;  = k\lambda\]
+la	\frac{sin \alpha}{sin \beta} = \frac{n_2}{n_1} =
+la	\frac{&upsilon;_1}{&upsilon;_2}
+la	n = \frac c&upsilon;
+la	\pm\frac 1F = \pm \frac 1f \pm \frac 1d
+la	D = \frac 1F
+la	\Gamma = \frac Hh = \frac fd 
+la	\Delta = (2k  + 1) \frac \lambda 2
+la	\Delta = k\lambda
+la	d sin &phi;  = k\lambda
 la	
-la	\[&upsilon; = \frac{&upsilon;_1 = &upsilon;_2}{1 +\frac{ &upsilon;_1 &upsilon;_2}{c^2}}\]
-la	\[l =l_0 \sqrt{1 - \frac{&upsilon;^2}{c^2}}\]
-la	\[&tau; = \frac{&tau;_0}{\sqrt{1- \frac{&upsilon;^2}{c^2}}}\]
-la	\[m = \frac{m_0}{\sqrt{1- \frac{&upsilon;^2}{c^2}}}\]
-la	\[E = mc^2\]
+la	&upsilon; = \frac{&upsilon;_1 = &upsilon;_2}{1 +\frac{ &upsilon;_1 &upsilon;_2}{c^2}}
+la	l =l_0 \sqrt{1 - \frac{&upsilon;^2}{c^2}}
+la	&tau; = \frac{&tau;_0}{\sqrt{1- \frac{&upsilon;^2}{c^2}}}
+la	m = \frac{m_0}{\sqrt{1- \frac{&upsilon;^2}{c^2}}}
+la	E = mc^2
 la	
-la	\[E = hv\]
-la	\[p = mc = \frac{hv}{c}\]
-la	\[hv = A + \frac{mv&upsilon;^2}{2}\]
-la	\[A= h&nu;_min = h \frac{c}{\lambda_{кр}}\]
-la	\[\frac{m&nu;^2}{2} = eU_з\]
-la	\[h&nu; = E_п - E_m\]
-la	\[\lambda = \frac{h}{m&upsilon;}\]
-la	\[N = N_0 \cdot 2^{-\frac{t}{T}}\]
-la	\[\Delta M = Zm_p +Nm_p -M_я\]
-la	\[E_{св} = \Delta Mc^2\]
+la	E = hv
+la	p = mc = \frac{hv}{c}
+la	hv = A + \frac{mv&upsilon;^2}{2}
+la	A= h&nu;_min = h \frac{c}{\lambda_{кр}}
+la	\frac{m&nu;^2}{2} = eU_з
+la	h&nu; = E_п - E_m
+la	\lambda = \frac{h}{m&upsilon;}
+la	N = N_0 \cdot 2^{-\frac{t}{T}}
+la	\Delta M = Zm_p +Nm_p -M_я
+la	E_{св} = \Delta Mc^2
