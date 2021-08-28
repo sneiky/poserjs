@@ -10,13 +10,15 @@ Array.prototype.shuffle = function() {
 //
 function press_div_sq1(event)
 {
-  alert($palica);
   let div = event.currentTarget;
   if(div.dataset.disunu == $palica) {
-    let slide = convert_palist_to_paslide($palist, $palica)
+    let palist = $palist.slice(0);
+    let slide = convert_palist_to_paslide(palist, $palica)
     $div_h.innerHTML = "";
     $div_h.append(slide);
+    MathJax.typeset();
     $palica++;
+    div.style.display = "none";
   }
 }
 //
@@ -28,7 +30,7 @@ function convert_formula_to_interactive(
   $div_h = div_h;
   //create number-blocks in div_square
   let palist = convert_formula_to_palist(div_h.innerText);
-  $palist = palist;
+  $palist = palist.slice(0);
   let nulist = convert_palist_to_nulist(palist);
   let divnulist = convert_nulist_to_divnulist(nulist);
   divnulist = divnulist.shuffle()
