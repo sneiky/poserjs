@@ -12,6 +12,20 @@ body{
     float: left;
       
 }
+.massage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #28B573;
+    position: absolute;
+    width: 40vh;
+    height: 20vh;
+    right:40%;
+    flex-direction: row;
+    font-size: 5vh;
+    font-family: Open Sans;
+    color: red;
+}
 .icon_menu{
     width: 3.7vh;
     height: 3.7vh;
