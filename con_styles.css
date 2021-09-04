@@ -16,15 +16,26 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #28B573;
-    position: absolute;
     width: 40vh;
-    height: 20vh;
-    right:40%;
+    height: 6vh;
     flex-direction: row;
-    font-size: 5vh;
+    font-size: 3vh;
     font-family: Open Sans;
-    color: red;
+    color: white;
+}
+#score{
+    color: white;
+}
+.bnext{
+    outline: none;
+    border: none;
+    background-color: rgb(255, 185, 32);
+    width: 15vh;
+    height: 6vh;
+    font-size: 2.5vh;
+    font-family: Open Sans;
+    border-radius: 20px;
+    color : black;
 }
 .icon_menu{
     width: 3.7vh;
@@ -52,9 +63,10 @@ ul {
     background-color: #2A6E55;
     width: 95%;
     height: 100%;
-    float:left;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
     
 }
@@ -65,10 +77,7 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
     border-radius: 20px;
-    top:11%;
-    right:8%;
 }
 .h{
     width: 75%;
@@ -100,9 +109,8 @@ ul {
 hr{
     border: none;
     background-color: #2A6E55;
-    color: #2A6E55;
     height: 0.2vh;
-    width: 147vh;
+    width: 100%;
     margin: 0;
     display: flex;
     

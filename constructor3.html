@@ -9,23 +9,6 @@
 </head>
 
 <body>
-    <div class="formul">
-        <div class="h">
-            | \omega | = \frac{ | \varphi | }{ | t | }
-        </div>
-        <div class="h" style="display: none;">
-            | s_x | = | x | + | x_0 |
-        </div>
-        <div class="h" style="display: none;">
-            | \vec{s} | = \frac{ | \vec{&upsilon;} | + | \vec{&upsilon;_0} | }{| 2 | } | t |
-        </div>
-        <hr>
-        <div class="square">
-        </div>
-    </div>
-
-    <div class="massage"> количество ошибок : <div id="score"></div>
-    </div>
 
     <div class="menu">
         <div class="h1">
@@ -60,7 +43,24 @@
             </ul>
         </div>
     </div>
-    <div class="main"></div>
+    <div class="main">
+        <div class="massage"> Количество ошибок: &nbsp; <div id="score">0</div>
+        </div>
+        <div class="formul">
+            <div class="h">
+                | \omega | = \frac{ | \varphi | }{ | t | }
+            </div>
+            <div class="h" style="display: none;">
+                | s_x | = | x | + | x_0 |
+            </div>
+            <div class="h" style="display: none;">
+                | \vec{s} | = \frac{ | \vec{&upsilon;} | + | \vec{&upsilon;_0} | }{| 2 | } \cdot | t |
+            </div>
+            <hr>
+            <div class="square">
+            </div>
+        </div>
+    </div>
     <script src="constructor.js"></script>
 </body>
 
