@@ -1,6 +1,7 @@
 let $palist = null;
 let $palica = 1;
 let $div_h = null;
+let $div_square = null;
 let $score = 0;
 let $div_massage = null;
 //
@@ -9,6 +10,35 @@ Array.prototype.shuffle = function () {
     return 0.5 - Math.random();
   });
 };
+//
+function create_button_bnext(
+                             div_square
+                            )
+{
+  let button_bnext = document.createElement('button');
+  button_bnext.classList.add("bnext");
+  button_bnext.addEventListener("click", press_button_bnext);
+  button_bnext.innerHTML = "Дальше";
+  //
+  div_square.append(button_bnext);
+}
+//
+function press_button_bnext(event) {
+  let button = event.currentTarget;
+  //
+  $div_h.remove();
+  $div_h = document.querySelector(".h");
+  $div_h.style.display = "flex";
+  //
+  $div_square.innerHTML = "";
+  //
+  convert_formula_to_interactive(
+                                 $div_h,
+                                 $div_square,
+                                 $div_massage
+                                );
+  //
+}
 //
 function press_div_sq1(event) {
   let div = event.currentTarget;
@@ -20,6 +50,10 @@ function press_div_sq1(event) {
     MathJax.typeset();
     $palica++;
     div.style.display = "none";
+    if ((palist.length-1)/2 == $palica) {
+      $palica = 1;
+      create_button_bnext($div_square);
+    }
   } else {
     $score += 1;
     //alert(div_massage.innerHTML);
@@ -32,6 +66,7 @@ function convert_formula_to_interactive(
   div_square
 ) {
   $div_h = div_h;
+  $div_square = div_square;
   //create number-blocks in div_square
   let palist = convert_formula_to_palist(div_h.innerText);
   $palist = palist.slice(0);
@@ -43,6 +78,7 @@ function convert_formula_to_interactive(
   let slide0 = convert_palist_to_paslide(palist, $palica - 1)
   div_h.innerHTML = "";
   div_h.append(slide0);
+  MathJax.typeset();
 }
 //
 function convert_palist_to_paslide(
