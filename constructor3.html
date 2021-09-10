@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="con_styles.css">
+    <link rel="stylesheet" href="con_styles_gg.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <script id="MathJax-script" async src="MathJax-3.1.2/es5/tex-mml-chtml.js">
@@ -9,11 +9,28 @@
 </head>
 
 <body>
-
-    <div class="menu">
-        <div class="h1">
-            <img class="icon_menu" src="svg\men.svg">
+    <div id="sidebar">
+        <div class="btn" onclick="openMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
+
+        <ul>
+            <li>Меню</li>
+            <li><img class="icon_menu" src="svg\home1.svg"><a href="/"> Главная</a></li>
+            <li><img class="icon_menu" src="svg\meh1.svg"><a href="/"> Механика</a></li>
+            <li><img class="icon_menu" src="svg\atom.svg"><a href="/"> Молекулярная физика</a></li>
+            <li> <img class="icon_menu" src="svg\temp.svg"><a href="/">Термодинамика</a></li>
+            <li><img class="icon_menu" src="svg\electr.svg"><a href="/">Электродинамика</a></li>
+            <li><img class="icon_menu" src="svg\optric.svg"><a href="/"> Оптика</a></li>
+            <li><img class="icon_menu" src="svg\teori.svg"><a href="/"> Элементы теории относительности</a></li>
+            <li><img class="icon_menu" src="svg\kvant.svg"><a href="/"> Квантовая физика</a></li>
+        </ul>
+
+    </div>
+    <div class="menu">
+
         <div class="h2">
             <ul>
                 <li>
@@ -62,6 +79,7 @@
         </div>
     </div>
     <script src="constructor.js"></script>
+    <script src="menu.js"></script>
 </body>
 
 </html>

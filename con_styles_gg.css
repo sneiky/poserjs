@@ -1,0 +1,226 @@
+body {
+    margin: 0;
+    height: 100%;
+}
+.menu {
+    width: 5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    float: left;
+      
+}
+#sidebar {
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    color: #2A6E55;
+    background-color: white;
+    border-right: 4px solid white ;
+    font-family: Open Sans;
+    justify-content: center;
+    align-items: center;
+    left: -740px;
+    -moz-transition: all 300ms;
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+}
+#sidebar.active{
+    left: 0px;
+}
+#sidebar ul li:first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 4.2vh;
+    font-style: normal;
+    font-weight: 800;
+    text-align: center;
+    width: 30%;
+    line-height: 6vh;
+    height: 20vh;
+    text-align: center;
+    color: #2A6E55;
+    list-style: none;
+}
+
+#sidebar ul li  a{
+
+    color: #2A6E55;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 2.5vh;   
+}
+#sidebar ul li  a:hover{color:#91C273}
+
+#sidebar .btn{
+    position: absolute;
+    left: 760px;
+    top: 2vh;
+    padding: 10px;
+    border-radius: 20px;
+}
+#sidebar .btn:hover {background:#2A6E55;}
+#sidebar .btn:hover span {background: white;}
+#sidebar .btn span{
+    display: block;
+    width: 2.7vh;
+    height: 0.55vh;
+    background-color: #2A6E55;
+    margin: 4px 0;
+}
+
+
+
+.massage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vh;
+    height: 6vh;
+    flex-direction: row;
+    font-size: 3vh;
+    font-family: Open Sans;
+    color: white;
+}
+
+#score{
+    color: white;
+}
+
+.bnext{
+    outline: none;
+    border: none;
+    background-color: rgb(255, 185, 32);
+    width: 15vh;
+    height: 6vh;
+    font-size: 2.5vh;
+    font-family: Open Sans;
+    border-radius: 20px;
+    color : black;
+}
+.icon_menu{
+    width: 3.7vh;
+    height: 3.7vh;
+}
+.man{
+    position: fixed;
+    top:90%;
+    left:10%;
+}
+li {
+    list-style-type: none;
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #2A6E55;
+    font-family: Open Sans;
+  }
+ul {
+    padding: 0;
+    margin: 0;
+  }    
+.main{
+    background-color: #2A6E55;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.formul{
+    background-color: white;
+    height: 79%;
+    width: 77%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+.h{
+    width: 75%;
+    height: 65%;
+    min-height: 65%;
+    background-color: white;
+    font-size: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.h1{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.h2{
+    width: 100%;
+    height: calc(100% - 7vh);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+hr{
+    border: none;
+    background-color: #2A6E55;
+    height: 0.2vh;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    
+
+}
+.square{
+    width: 75%;
+    height: calc(100% - 65% - 0.2vh);
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.sq1:first-child{
+    margin-left: 0;
+}
+
+.sq1{
+    border-radius: 20px;
+    background-color: #28B573;
+    height: 12vh;
+    width: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2vw;
+    font-size: 4vh;
+}
+.sq2:first-child{
+    margin-left: 0;
+}
+
+.sq2{
+    border-radius: 20px;
+    background-color: #28B573;
+    height: 10vh;
+    width: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.5vw;
+    color: white;
+    font-weight: bold;
+}
