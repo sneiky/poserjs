@@ -37,7 +37,6 @@ INSERT INTO themes VALUES ("0","Оптика","svg/op.svg");
 INSERT INTO themes VALUES ("0","Теория относительности","svg/to.svg");
 INSERT INTO themes VALUES ("0","Квантовая, атомная и ядерная физика","svg/kv.svg");
 --
-INSERT INTO formulas VALUES ("0","проекция перемещения при равноускоренном движении от времени","| \\vec{s} | = | \\vec{&upsilon;_0} | t | +\\frac{ | \\vec{a} | t^2 | }{ | 2 | }","1");
 INSERT INTO formulas VALUES ("0","проекция перемещения при равноускоренном движении без времени","| s_x | =\\frac{ | &upsilon;_x^2 | - | &upsilon;_{0x}^2 | }{ | 2 | \\cdot | a_x | }","1");
 INSERT INTO formulas VALUES ("0","уравнение равноускоренного движения","| x | = | x_0 | + | &upsilon;_0 | \\cdot | t | +\\frac{ | a | \\cdot | t^2 | }{ | 2 | }","1");
 INSERT INTO formulas VALUES ("0","частота обращения","| T | =\\frac{ | t | }{ | N | }","2");

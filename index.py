@@ -10,7 +10,7 @@ import pymysql
 import pymysql.cursors
 import re
 #
-_pattern_html = "pattern4.html"
+_pattern_html = "pattern.html"
 #
 _db_user = "lala_user"
 _db_password = "lala_pass"

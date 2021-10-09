@@ -114,8 +114,8 @@ body {
     color : black;
 }
 .h2 svg {
-    width: 4vh;
-    height: 4vh;
+    width: 5vh;
+    height: 5vh;
 }
 .h2 svg:hover path {
     fill: #91C273;
