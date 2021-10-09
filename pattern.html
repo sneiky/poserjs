@@ -1,211 +1,69 @@
-<!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="pattern.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>poserjs</title>
     <script id="MathJax-script" async
-            src="MathJax-3.1.2/es5/tex-mml-chtml.js">
-    </script>
-    <style>
-      table {
-        border-collapse: collapse;
-      }
-      td {
-        border: 1px solid black;
-        padding: 5px;
-      }
-
-      .left {
-        width: 50%;
-
-        height: inherit;
-        display: flex;
-        flex-direction: column;
-      }
-
-      .right {
-        background-color: #2A6E55;
-        width: 50%;
-        height: inherit;
-        display: flex;
-      }
-
-      .list_right{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        height: 100%;
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: 800;
-        line-height: 5vh;
-        font-size: 3vh;
-        text-align: center;
-        color: #FFFFFF;
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 0px 0px;
-      }
-      .kon{
-        margin-top: 0px;
-        font-size: 1.8vh;
-        font-weight: 600;
-      }
-
-      .text_container{
-        width: 100%;
-        height: auto;
-        padding: 0px;
-        box-sizing: border-box;
-        font-size: 10vh;
-
-      }
- 
-      .menu {
-        height: 20vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        font-size: 5vh;
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 4.4vh;
-        line-height: 6vh;
-        text-align: center;
-        color: #2A6E55;
-
-
-      }
-      .list {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 3vh;
-        line-height: 4vh;
-        color: #91C273;
-      }
-
-      .icon_menu{
-        width: 3.7vh;
-        height: 3.7vh;
-      }
-      .first {
-        margin: 0;
-        display: flex;
-        flex-direction: row;
-        min-height: 100vh;
-      }
-      li {
-        list-style-type: none;
-        height: 7vh;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        color: #2A6E55;
-        font-family: Open Sans;
-      }
-      ul {
-        padding: 0;
-        margin: 0;
-      }
-      li img {
-        margin-right: 4vh;
-      }
-      .str{
-        width: 100%;
-        background: #91C273;
-        height: 8vh;
-        left: -201px;
-        top: 978px;
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 4.8vh;
-        line-height: 7vh;
-        text-align: center;
-        color: #FFFFFF;
-      }
-      body {
-        margin: 0;
-      }
-      .mous img {
-        width: 10vh;
-        height: 10vh;
-      }
-    </style>
+    src="MathJax-3.1.2/es5/tex-mml-chtml.js"></script>
   </head>
   <body>
-    
-    <div class = "first">
-      <div class="left">
-        <div class="menu">
-          МЕНЮ
-        </div>
-        <div class="list">
-          <ul>
-            <li>
-              <img class="icon_menu" src="svg\home.svg">
-              Главная
-            </li>
-            <li>
-              <img class="icon_menu" src="svg\meh.svg">
-              Механика
-            </li>
-            <li>
-              <img class="icon_menu" src="svg\atom.svg">
-              Молекулярная физика
-            <li>
-              <img class="icon_menu"  src="svg\temp.svg">
-              Термодинамика
-            </li>
-            <li>
-              <img class="icon_menu"  src="svg\electr.svg">
-              Электродинамика
-            </li>
-            <li>
-              <img class="icon_menu" src="svg\optric.svg">
-              Оптика
-            </li>
-            <li>
-              <img class="icon_menu" src="svg\teori.svg">
-              Элементы теории относительности
-            </li>
-            <li>
-              <img class="icon_menu" src="svg\kvant.svg">
-              Квантовая физика
-            </li>
-            </li>
-            </li>
-            </li>
-            </li>
-          </ul>
+    <div class="menu">
+      <div class="h2">
+        <ul>
+          <li>
+            <img class="icon_menu"
+            src="svg/gl.svg">
+          </li>
+          <li>
+            <img class="icon_menu"
+            src="svg/me.svg">
+          </li>
+          <li>
+            <img class="icon_menu"
+            src="svg/mo.svg">
+          </li>
+          <li>
+            <img class="icon_menu"
+            src="svg/te.svg">
+          </li>
+          <li>
+            <img class="icon_menu"
+            src="svg/el.svg">
+          </li>
+          <li>
+            <img class="icon_menu"
+            src="svg/op.svg">
+          </li>
+          <li>
+            <img class="icon_menu"
+            src="svg/to.svg">
+          </li>
+          <li>
+            <img class="icon_menu"
+            src="svg/kv.svg">
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="main">
+      <div class="massage">
+        Количество ошибок: &nbsp;
+        <div id="score">
+          0
         </div>
       </div>
-      <div class="right">
-        <div class="list_right">
-          <div></div>
-          <div class="text_container">POSER.JS <br>
-            <a class="kon">Конструктор физических формул</a></div>
-          <div class="mous"><img src="svg\mous.svg"></div>
-        
-    </div>
+      <div class="formul">
+        <div class="t">
+проекция перемещения на ось X  
+        </div>
+        <div class="h">
+| s_x | = | x | + | x_0 | &nbsp;  
+        </div>
+        <hr>
+        <div class="square">
         </div>
       </div>
-    <div class="str">
-      <marquee behavior="scroll" direction="right"
-          scrollamount="6">
-        POSER.JS POSER.JS POSER.JS POSER.JS POSER
-        JS POSER.JS POSER.JS POSER.JS
-      </marquee>
     </div>
-    
+    <script src="pattern.js"></script>
   </body>
 </html>

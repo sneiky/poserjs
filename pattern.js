@@ -1,6 +1,7 @@
 let $palist = null;
 let $palica = 1;
 let $div_h = null;
+let $div_t = null;
 let $div_square = null;
 let $score = 0;
 let $div_massage = null;
@@ -30,10 +31,15 @@ function press_button_bnext(event) {
   $div_h = document.querySelector(".h");
   $div_h.style.display = "flex";
   //
+  $div_t.remove();
+  $div_t = document.querySelector(".t");
+  $div_t.style.display = "flex";
+  //
   $div_square.innerHTML = "";
   //
   convert_formula_to_interactive(
                                  $div_h,
+                                 $div_t,
                                  $div_square,
                                  $div_massage
                                 );
@@ -50,6 +56,9 @@ function press_div_sq1(event) {
     MathJax.typeset();
     $palica++;
     div.style.display = "none";
+    //
+    //alert(palist.length+"\n"+$palica);
+    //
     if ((palist.length-1)/2 == $palica) {
       $palica = 1;
       create_button_bnext($div_square);
@@ -63,9 +72,11 @@ function press_div_sq1(event) {
 //
 function convert_formula_to_interactive(
   div_h,
+  div_t,
   div_square
 ) {
   $div_h = div_h;
+  $div_t = div_t;
   $div_square = div_square;
   //create number-blocks in div_square
   let palist = convert_formula_to_palist(div_h.innerText);
@@ -183,11 +194,47 @@ function append_divnulist(
   }
 }
 //
+function hide_excess_tanahas() {
+  let has = document.querySelectorAll(".h");
+  let tas = document.querySelectorAll(".t");
+  let n = has.length;
+  for(i=1;i<n;i++) {
+    has[i].style.display = "none";
+    tas[i].style.display = "none";
+  }
+}
+//
+function get_pa_by_name(name,url=window.location.href) {
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]'+name+'(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g,' '));
+}
+//
+function light_curala() {
+    let hemado = get_pa_by_name("hemado");
+    let se = null;
+    if(hemado == null) {
+        se = 'a[href="/"]';
+    } else {
+        se = 'a[href="/?hemado='+hemado+'"]';
+    }
+    let facurala = document.querySelectorAll(se);
+    facurala.forEach(
+        function(elem){elem.className += ' curala'}
+                    );
+}
+//
 function load_js() {
   let div_h = document.querySelector(".h");
+  let div_t = document.querySelector(".t");
   let div_square = document.querySelector(".square");
   let div_massage = document.querySelector(".massage");
-  convert_formula_to_interactive(div_h, div_square, div_massage);
+  light_curala();
+  hide_excess_tanahas();
+  convert_formula_to_interactive(div_h, div_t, div_square, div_massage);
 }
 //
 document.addEventListener("DOMContentLoaded", load_js);
