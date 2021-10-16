@@ -16,6 +16,8 @@ _db_user = "lala_user"
 _db_password = "lala_pass"
 _db_name = "lala_db"
 #
+
+
 def main():
     #sql = ""
     #
@@ -25,12 +27,12 @@ def main():
     #csv = open("themes.csv","r").read()
     #sql += csv_to_sql(csv,"themes")
     #
-    #open("insert.sql","w").write(sql)
+    # open("insert.sql","w").write(sql)
     #
-    #exit()
+    # exit()
     #
-    #create_db()
-    #fill_tables()
+    # create_db()
+    # fill_tables()
     #
     cgitb.enable(display=1)
     #
@@ -39,30 +41,33 @@ def main():
     #
     if(os.environ["REQUEST_METHOD"] == "GET"):
         kuseru = os.environ["QUERY_STRING"]
-        hemado = re.match(".*hemado=([^&]*).*",kuseru)
-        if(hemado != None):
-            hemado = hemado.group(1)
+        theme = re.match(".*theme=([^&]*).*", kuseru)
+        if(theme != None):
+            theme = theme.group(1)
         #
     #
-    #print(os.environ)
-    #print(hemado)
-    #exit()
+    # print(os.environ)
+    # print(theme)
+    # exit()
     #
-    hemado = None
+    theme = None
     form = cgi.FieldStorage()
-    if("hemado" not in form):
-        hemado = 0
+    if("theme" not in form):
+        theme = 0
     else:
-        hemado = form["hemado"].value
+        theme = form["theme"].value
     #
-    #print(form.__dict__)
-    #print(hemado)
-    #exit()
+    # print(form.__dict__)
+    # print(theme)
+    # exit()
     #
-    tanaha=get_tanaha(int(hemado))
-    menuha=get_menuha()
-    index(tanaha,menuha)
+    tanaha = get_tanaha(int(theme))
+    menuha = get_menuha()
+    aboba = get_aboba(theme)
+    index(tanaha, menuha, aboba)
 #
+
+
 def wrap_in_quotes(l):
     r = []
     #
@@ -71,7 +76,9 @@ def wrap_in_quotes(l):
     #
     return(r)
 #
-def csv_to_sql(csv,table_name):
+
+
+def csv_to_sql(csv, table_name):
     sql = ""
     #
     inserts = csv.split("\n")
@@ -90,17 +97,19 @@ def csv_to_sql(csv,table_name):
     #
     return(sql)
 #
+
+
 def create_db():
     connection = pymysql.connect(host='localhost',
-        user=_db_user,
-        password=_db_password,
-        database=_db_name,
-        charset='utf8mb4',
-        cursorclass=pymysql.cursors.DictCursor)
+                                 user=_db_user,
+                                 password=_db_password,
+                                 database=_db_name,
+                                 charset='utf8mb4',
+                                 cursorclass=pymysql.cursors.DictCursor)
     #
     cursor = connection.cursor()
     #
-    qs = open("create.sql","r").read()
+    qs = open("create.sql", "r").read()
     #
     l = qs.split(";\n")
     l = delete_spaces(l)
@@ -113,17 +122,19 @@ def create_db():
     cursor.close()
     connection.close()
 #
+
+
 def fill_tables():
     connection = pymysql.connect(host='localhost',
-        user=_db_user,
-        password=_db_password,
-        database=_db_name,
-        charset='utf8mb4',
-        cursorclass=pymysql.cursors.DictCursor)
+                                 user=_db_user,
+                                 password=_db_password,
+                                 database=_db_name,
+                                 charset='utf8mb4',
+                                 cursorclass=pymysql.cursors.DictCursor)
     #
     cursor = connection.cursor()
     #
-    qs = open("insert.sql","r").read()
+    qs = open("insert.sql", "r").read()
     #
     l = qs.split(";\n")
     l = delete_spaces(l)
@@ -136,15 +147,17 @@ def fill_tables():
     cursor.close()
     connection.close()
 #
+
+
 def get_menuha():
     output = ""
     #
     connection = pymysql.connect(host='localhost',
-        user=_db_user,
-        password=_db_password,
-        database=_db_name,
-        charset='utf8mb4',
-        cursorclass=pymysql.cursors.DictCursor)
+                                 user=_db_user,
+                                 password=_db_password,
+                                 database=_db_name,
+                                 charset='utf8mb4',
+                                 cursorclass=pymysql.cursors.DictCursor)
     #
     cursor = connection.cursor()
     #
@@ -166,16 +179,16 @@ def get_menuha():
         theme_name = result[n].get("theme_name")
         theme_icon = result[n].get("theme_icon")
         #
-        #print(formula_tex)
-        #exit()
+        # print(formula_tex)
+        # exit()
         #
-        output += f'<a href="/?hemado={theme_id}">'
+        output += f'<a href="/?theme={theme_id}">'
         output += '<li>'
         output += get_file_contents(theme_icon)
         output += '</li>'
         output += '</a>'
         #
-        n+=1
+        n += 1
     #
     output += "</ul>"
     #
@@ -184,15 +197,41 @@ def get_menuha():
     #
     return(output)
 #
-def get_tanaha(hemado=0):
+
+
+def get_aboba(theme):
+    #
+    connection = pymysql.connect(host='localhost',
+                                 user=_db_user,
+                                 password=_db_password,
+                                 database=_db_name,
+                                 charset='utf8mb4',
+                                 cursorclass=pymysql.cursors.DictCursor)
+    #
+    cursor = connection.cursor()
+    #
+    sql = f"SELECT * FROM themes WHERE theme_id={theme};"
+    cursor.execute(sql)
+    result = cursor.fetchone()
+    if result == None:
+        return "Главная"
+    theme_name = result.get("theme_name")
+    cursor.close()
+    connection.close()
+    return theme_name
+
+#
+
+
+def get_tanaha(theme=0):
     output = ""
     #
     connection = pymysql.connect(host='localhost',
-        user=_db_user,
-        password=_db_password,
-        database=_db_name,
-        charset='utf8mb4',
-        cursorclass=pymysql.cursors.DictCursor)
+                                 user=_db_user,
+                                 password=_db_password,
+                                 database=_db_name,
+                                 charset='utf8mb4',
+                                 cursorclass=pymysql.cursors.DictCursor)
     #
     cursor = connection.cursor()
     #
@@ -202,19 +241,20 @@ def get_tanaha(hemado=0):
     n = 0
     #
     harame = False
-    if(hemado == 0):
+    if(theme == 0):
         harame = True
     #
     while(n < len(result)):
         formula_id = result[n].get("formula_id")
         formula_name = result[n].get("formula_name")
+        formula_name = formula_name[0].upper() + formula_name[1:]
         formula_tex = result[n].get("formula_tex")
         theme_id = result[n].get("theme_id")
         #
-        #print(formula_tex)
-        #exit()
+        # print(formula_tex)
+        # exit()
         #
-        if((theme_id == hemado) or harame):
+        if((theme_id == theme) or harame):
             output += '<div class="t">'
             output += f'{formula_name}'
             output += '</div>'
@@ -222,24 +262,25 @@ def get_tanaha(hemado=0):
             output += f'{formula_tex}'
             output += '</div>'
         #
-        n+=1
+        n += 1
     #
-    output = output.encode("utf-8").decode('utf-8')
     #
     cursor.close()
     connection.close()
     #
     return(output)
 #
+
+
 def get_formulas_table():
     output = ""
     #
     connection = pymysql.connect(host='localhost',
-        user=_db_user,
-        password=_db_password,
-        database=_db_name,
-        charset='utf8mb4',
-        cursorclass=pymysql.cursors.DictCursor)
+                                 user=_db_user,
+                                 password=_db_password,
+                                 database=_db_name,
+                                 charset='utf8mb4',
+                                 cursorclass=pymysql.cursors.DictCursor)
     #
     cursor = connection.cursor()
     #
@@ -260,12 +301,12 @@ def get_formulas_table():
 <td>{theme_id}</td>
 </tr>
 '''.format(
-           formula_id=formula_id,
-           formula_name=formula_name,
-           formula_tex=formula_tex,
-           theme_id=theme_id
-          )
-        n+=1
+            formula_id=formula_id,
+            formula_name=formula_name,
+            formula_tex=formula_tex,
+            theme_id=theme_id
+        )
+        n += 1
     #
     output += "</table>"
     #
@@ -274,46 +315,60 @@ def get_formulas_table():
     #
     return(output)
 #
+
+
 def get_file_contents(fn):
     #
-    fl = open(fn,"r",encoding="utf-8")
+    fl = open(fn, "r", encoding="utf-8")
     st = fl.read()
     fl.close()
     #
     return(st)
 #
-def index(tanaha,menuha):
+
+
+def index(tanaha, menuha, aboba):
     #
-    html = open(_pattern_html,"r",encoding="utf-8").read()
-    #
-    html = html.replace(
-                        "<!--tanaha-->",
-                        tanaha
-                       )
+    html = open(_pattern_html, "r", encoding="utf-8").read()
     #
     html = html.replace(
-                        "<!--menuha-->",
-                        menuha
-                       )
+        "<!--tanaha-->",
+        tanaha
+    )
+    html = html.replace(
+        "<!--aboba-->",
+        aboba
+    )
     #
-    #print(sys.getdefaultencoding())
-    #print(sys.getfilesystemencoding())
+    html = html.replace(
+        "<!--menuha-->",
+        menuha
+    )
+    #
+    # print(sys.getdefaultencoding())
+    # print(sys.getfilesystemencoding())
     #
     #sys.stdout = codecs.getwriter(locale.getpreferredencoding())(sys.stdout)
-    html = html.encode("utf-8").decode("cp1251")
+    #html = html.encode("utf-8").decode("cp1251")
     print(html)
 #
+
+
 def delete_empty(elements):
-    return list(filter(lambda x: x!="",elements))
+    return list(filter(lambda x: x != "", elements))
 #
+
+
 def delete_spaces(elements):
     a = list(elements)
     i = 0
     n = len(a)
-    while(i<n):
-        a[i]=a[i].strip()
-        i+=1
+    while(i < n):
+        a[i] = a[i].strip()
+        i += 1
     return(a)
+
+
 #
-if(__name__=="__main__"):
-  main()
+if(__name__ == "__main__"):
+    main()

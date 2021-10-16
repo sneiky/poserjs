@@ -13,9 +13,8 @@ Array.prototype.shuffle = function () {
 };
 //
 function create_button_bnext(
-                             div_square
-                            )
-{
+  div_square
+) {
   let button_bnext = document.createElement('button');
   button_bnext.classList.add("bnext");
   button_bnext.addEventListener("click", press_button_bnext);
@@ -38,11 +37,11 @@ function press_button_bnext(event) {
   $div_square.innerHTML = "";
   //
   convert_formula_to_interactive(
-                                 $div_h,
-                                 $div_t,
-                                 $div_square,
-                                 $div_massage
-                                );
+    $div_h,
+    $div_t,
+    $div_square,
+    $div_massage
+  );
   //
 }
 //
@@ -59,7 +58,7 @@ function press_div_sq1(event) {
     //
     //alert(palist.length+"\n"+$palica);
     //
-    if ((palist.length-1)/2 == $palica) {
+    if ((palist.length - 1) / 2 == $palica) {
       $palica = 1;
       create_button_bnext($div_square);
     }
@@ -198,33 +197,33 @@ function hide_excess_tanahas() {
   let has = document.querySelectorAll(".h");
   let tas = document.querySelectorAll(".t");
   let n = has.length;
-  for(i=1;i<n;i++) {
+  for (i = 1; i < n; i++) {
     has[i].style.display = "none";
     tas[i].style.display = "none";
   }
 }
 //
-function get_pa_by_name(name,url=window.location.href) {
-    name = name.replace(/[\[\]]/g, '\\$&');
-    var regex = new RegExp('[?&]'+name+'(=([^&#]*)|&|#|$)'),
-        results = regex.exec(url);
-    if (!results) return null;
-    if (!results[2]) return '';
-    return decodeURIComponent(results[2].replace(/\+/g,' '));
+function get_pa_by_name(name, url = window.location.href) {
+  name = name.replace(/[\[\]]/g, '\\$&');
+  var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+    results = regex.exec(url);
+  if (!results) return null;
+  if (!results[2]) return '';
+  return decodeURIComponent(results[2].replace(/\+/g, ' '));
 }
 //
 function light_curala() {
-    let hemado = get_pa_by_name("hemado");
-    let se = null;
-    if(hemado == null) {
-        se = 'a[href="/"]';
-    } else {
-        se = 'a[href="/?hemado='+hemado+'"]';
-    }
-    let facurala = document.querySelectorAll(se);
-    facurala.forEach(
-        function(elem){elem.className += ' curala'}
-                    );
+  let theme = get_pa_by_name("theme");
+  let se = null;
+  if (theme == null) {
+    se = 'a[href="/"]';
+  } else {
+    se = 'a[href="/?theme=' + theme + '"]';
+  }
+  let facurala = document.querySelectorAll(se);
+  facurala.forEach(
+    function (elem) { elem.className += ' curala' }
+  );
 }
 //
 function load_js() {
