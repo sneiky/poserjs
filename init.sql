@@ -50,10 +50,10 @@ INSERT INTO formulas VALUES ("0","уравнение равномерного п
 INSERT INTO formulas VALUES ("0","ускорение при равноускоренном движении","| \\vec{a} | =\\frac{ | \\vec{&upsilon;} | -{ | \\vec{&upsilon;_0} | }}{ | t | }","1");
 INSERT INTO formulas VALUES ("0","скорость при равноускоренном движении","| \\vec{&upsilon;} | = | \\vec{&upsilon;_0} | - | \\vec{a} | \\cdot | t | &nbsp;","1");
 INSERT INTO formulas VALUES ("0","перемещение при равноускоренном движении","| \\vec{s} | =\\frac{ | \\vec{&upsilon;} | + | \\vec{&upsilon;_0} | }{ | 2 | }\\cdot | t | &nbsp;","1");
-INSERT INTO formulas VALUES ("0","проекция перемещения при равноускоренном движении от времени","| \\vec{s} | = | \\vec{&upsilon;_0} | \\cdot | t | +\\frac{ | \\vec{a} | | \\cdot | | t^2 | }{ | 2 | &nbsp; }","1");
+INSERT INTO formulas VALUES ("0","проекция перемещения при равноускоренном движении от времени","| \\vec{s} | = | \\vec{&upsilon;_0} | \\cdot | t | +\\frac{ | \\vec{a} | \\cdot | t^2 | }{ | 2 | &nbsp; }","1");
 INSERT INTO formulas VALUES ("0","проекция перемещения при равноускоренном движении без времени","| s_x | =\\frac{ | &upsilon;_x^2 | - | &upsilon;_{0x}^2 | }{ | 2 | \\cdot | a_x | } &nbsp;","1");
 INSERT INTO formulas VALUES ("0","уравнение равноускоренного движения","| x | = | x_0 | + | &upsilon;_0 | \\cdot | t | +\\frac{ | a | \\cdot | t^2 | }{ | 2 | } &nbsp;","1");
-INSERT INTO formulas VALUES ("0","частота обращения","| T | =\\frac{ | t | }{ | N | } &nbsp;","2");
+INSERT INTO formulas VALUES ("0","частота обращения","| T | =\\frac{ | t | }{ | N | } &nbsp;","1");
 INSERT INTO formulas VALUES ("0","период обращения","| &nu; | =\\frac{ | N | }{ | t | } &nbsp;","1");
 INSERT INTO formulas VALUES ("0","связь между периодом и частотой обращения","| T | =\\frac{ | 1 | }{ | &nu; | } &nbsp;","1");
 INSERT INTO formulas VALUES ("0","линейная скорость","| &upsilon; | =\\frac{ | s | }{ | t | } &nbsp;","1");
