@@ -1,4 +1,4 @@
-#!D:\ilqyul\portpy\python.exe
+#!/usr/bin/python3
 #
 import cgi
 import cgitb
@@ -12,9 +12,9 @@ import re
 #
 _pattern_html = "pattern.html"
 #
-_db_user = "lala_user"
-_db_password = "lala_pass"
-_db_name = "lala_db"
+_db_user = "poserjs_user"
+_db_password = "poserjs_pass"
+_db_name = "poserjs_db"
 #
 
 
