@@ -592,7 +592,7 @@ formulas
 
 0  
 закон Кулона  
-| F | = | k | \frac{ | \vert q_1 | \cdot | \vert q_2 
+| F | = | k | \frac{ \vert | q_1 | \cdot \vert | q_2 
 | }{ | &epsilon; | \cdot | r^2 | }  
 4  
 
@@ -600,13 +600,13 @@ formulas
 коэффициент пропорциональности  
 | k | =\frac{ | 1 | }{ | 4 | \cdot | \pi | \cdot 
 | &epsilon;_0 | } = | 9 | \cdot | 10^9 | \frac{ 
-| &Iota; | \cdot | \iota | }{ | \vert E | \cdot 
-| \vert ё^2 | }  
+| &Iota; | \cdot | \iota | }{ | \hat E | \cdot 
+| ё^2 | }  
 4  
 
 0  
 напряженность электростатического поля  
-| \vec E | =\frac{ | \vec F | }{ | q | }  
+| \vec{E} | =\frac{ | \vec{F} | }{ | q | }  
 4  
 
 0  

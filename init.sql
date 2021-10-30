@@ -135,9 +135,9 @@ INSERT INTO formulas VALUES ("0","уравнение первого начала
 INSERT INTO formulas VALUES ("0","уравнение теплового баланса","| \\sum_{i=1}^n | &nbsp; | Q_i | = | 0 | &nbsp;","3");
 INSERT INTO formulas VALUES ("0","КПД идеальной тепловой машины","| &#951 | =\\frac{ | T_1 | - | T_2 | }{ | T-1 | }","3");
 INSERT INTO formulas VALUES ("0","КПД теплового двигателя","| &#951 | = | &#951 | =\\frac{ | Q_1 | - | Q_2 | }{ | Q_1 | }","3");
-INSERT INTO formulas VALUES ("0","закон Кулона","| F | = | k | \\frac{ | \\vert q_1 | \\cdot | \\vert q_2 | }{ | &epsilon; | \\cdot | r^2 | }","4");
-INSERT INTO formulas VALUES ("0","коэффициент пропорциональности","| k | =\\frac{ | 1 | }{ | 4 | \\cdot | \\pi | \\cdot | &epsilon;_0 | } = | 9 | \\cdot | 10^9 | \\frac{ | &Iota; | \\cdot | \\iota | }{ | \\vert E | \\cdot | \\vert ё^2 | }","4");
-INSERT INTO formulas VALUES ("0","напряженность электростатического поля","| \\vec E | =\\frac{ | \\vec F | }{ | q | }","4");
+INSERT INTO formulas VALUES ("0","закон Кулона","| F | = | k | \\frac{ \\vert | q_1 | \\cdot \\vert | q_2 | }{ | &epsilon; | \\cdot | r^2 | }","4");
+INSERT INTO formulas VALUES ("0","коэффициент пропорциональности","| k | =\\frac{ | 1 | }{ | 4 | \\cdot | \\pi | \\cdot | &epsilon;_0 | } = | 9 | \\cdot | 10^9 | \\frac{ | &Iota; | \\cdot | \\iota | }{ | \\hat E | \\cdot | ё^2 | }","4");
+INSERT INTO formulas VALUES ("0","напряженность электростатического поля","| \\vec{E} | =\\frac{ | \\vec{F} | }{ | q | }","4");
 INSERT INTO formulas VALUES ("0","модуль напряженности электростатического поля точечного заряда","| E | =\\frac{\\vert | q | \\vert}{ | &epsilon; | \\cdot | r^2 | }","4");
 INSERT INTO formulas VALUES ("0","модуль напряженности электростатического поля, заряженного поля","| E | = | k | \\frac{  \\vert | q_ш | \\vert  }{ | &epsilon; | \\cdot ( | R | + | r | )^2 }","4");
 INSERT INTO formulas VALUES ("0","принцип суперпозиции электрических полей","| \\vec E | = | \\sum_{i = 1}^n | \\cdot | \\vec E_i | &nbsp;","4");
