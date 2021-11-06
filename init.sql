@@ -43,6 +43,6 @@ INSERT INTO themes VALUES ("0","Оптика","svg/op.svg");
 INSERT INTO themes VALUES ("0","Теория относительности","svg/to.svg");
 INSERT INTO themes VALUES ("0","Квантовая, атомная и ядерная физика","svg/kv.svg");
 --
-INSERT INTO formulas VALUES ("0","дефект масс","| \\Delta | \\cdot | M | = | Z | \\cdot | m_п | + | N | \\cdot | m_н | - | M_я | &nbsp;","7");
+INSERT INTO formulas VALUES ("0","дефект масс","| \\Delta{M} | = | Z | \\cdot | m_п | + | N | \\cdot | m_н | - | M_я | &nbsp;","7");
 INSERT INTO formulas VALUES ("0","энергия связи атомных ядер","| E_{св} | = | \\Delta | \\cdot | M | \\cdot | c^2 | &nbsp;","7");
 --
