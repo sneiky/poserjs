@@ -43,11 +43,7 @@ INSERT INTO themes VALUES ("0","Оптика","svg/op.svg");
 INSERT INTO themes VALUES ("0","Теория относительности","svg/to.svg");
 INSERT INTO themes VALUES ("0","Квантовая, атомная и ядерная физика","svg/kv.svg");
 --
-INSERT INTO formulas VALUES ("0","сила давления жидкости на дно сосуда","| F_{дно} | = | &rho; | \\cdot | g | \\cdot | H | \\cdot | S_{дно} | &nbsp;","1");
-INSERT INTO formulas VALUES ("0","сила давления жидкости на боковую поверхность сосуда","| F_{бок} | =\\frac{ | 1 | }{ | 2 | } \\cdot | &rho; | \\cdot | g | \\cdot | H | \\cdot | S_{бок} | &nbsp;","1");
-INSERT INTO formulas VALUES ("0","закон сообщающихся сосудов для разнородных жидкостей"," \\frac{ | h_1 | }{ | h_2 | } = \\frac{ | &rho;_1 | }{ | &rho;_2 | }","1");
-INSERT INTO formulas VALUES ("0","закон Архимеда","| F_a | = | &rho; | \\cdot | g | \\cdot | V | &nbsp;","1");
-INSERT INTO formulas VALUES ("0","формула связи модулей сил, действующих на поршни гидравлической машины","| F_2 | = | F_1 | \\frac{ | S_2 | }{ | S_1 | }","1");
+INSERT INTO formulas VALUES ("0","формула связи модулей сил, действующих на поршни гидравлической машины","| F_2 | = | F_1 | \\cdot \\frac{ | S_2 | }{ | S_1 | }","1");
 INSERT INTO formulas VALUES ("0","работа постоянной силы","| A | = | F | \\cdot | S | \\cdot | \\cos\\alpha | &nbsp;","1");
 INSERT INTO formulas VALUES ("0","работа силы трения","| A | = | (-1) | \\cdot | F_{тр} | \\cdot | s | &nbsp;","1");
 INSERT INTO formulas VALUES ("0","работа силы тяжести","| A | = | m | \\cdot | g | ( | h_1 | - | h_2 | ) &nbsp;","1");
