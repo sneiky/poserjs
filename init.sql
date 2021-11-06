@@ -43,8 +43,7 @@ INSERT INTO themes VALUES ("0","Оптика","svg/op.svg");
 INSERT INTO themes VALUES ("0","Теория относительности","svg/to.svg");
 INSERT INTO themes VALUES ("0","Квантовая, атомная и ядерная физика","svg/kv.svg");
 --
-INSERT INTO formulas VALUES ("0","КПД идеальной тепловой машины","| &#951 | =\\frac{ | T_1 | - | T_2 | }{ | T | - | 1 | }","3");
-INSERT INTO formulas VALUES ("0","КПД теплового двигателя","| &#951 | = | &#951 | =\\frac{ | Q_1 | - | Q_2 | }{ | Q_1 | }","3");
+INSERT INTO formulas VALUES ("0","КПД теплового двигателя","| &#951 | =\\frac{ | Q_1 | - | Q_2 | }{ | Q_1 | }","3");
 INSERT INTO formulas VALUES ("0","закон Кулона","| F | = | k | \\frac{ \\vert | q_1 | \\vert \\cdot \\vert | q_2 | \\vert }{ | &epsilon; | \\cdot | r^2 | }","4");
 INSERT INTO formulas VALUES ("0","коэффициент пропорциональности","| k | =\\frac{ | 1 | }{ | 4 | \\cdot | \\pi | \\cdot | &epsilon;_0 | } = | 9 | \\cdot | 10^9 | \\frac{ | &Iota; | \\cdot | \\iota | }{ | \\hat{E} | \\cdot | ё^2 | }","4");
 INSERT INTO formulas VALUES ("0","напряженность электростатического поля","| \\vec{E} | =\\frac{ | \\vec{F} | }{ | q | }","4");
