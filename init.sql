@@ -43,13 +43,8 @@ INSERT INTO themes VALUES ("0","Оптика","svg/op.svg");
 INSERT INTO themes VALUES ("0","Теория относительности","svg/to.svg");
 INSERT INTO themes VALUES ("0","Квантовая, атомная и ядерная физика","svg/kv.svg");
 --
-INSERT INTO formulas VALUES ("0","колличество теплоты, поглощаемое или выделяемое телом при изменении его температуры","| Q | = | c | \\cdot | m | \\cdot ( | t_2 | - | t_1 | )","3");
-INSERT INTO formulas VALUES ("0","теплоемкость тела","| C | = | c | \\cdot | m | &nbsp;","3");
-INSERT INTO formulas VALUES ("0","колличество теплоты, необходимое для превращения в пар жидкости, взятой при температуре кипения","| Q_п | = | r | \\cdot | m | &nbsp;","3");
-INSERT INTO formulas VALUES ("0","колличество теплоты, необходимое для плавления кристаллического вещества, взятого при температуре плавления","| Q_{пл} | = | \\lambda | \\cdot | m | &nbsp;","3");
-INSERT INTO formulas VALUES ("0","колличество теплоты, выделяемое при полном сгорании данной массы топлива","| Q_{сг} | = | (-1) | \\cdot | q | \\cdot | m | &nbsp;","3");
-INSERT INTO formulas VALUES ("0","работа, совершенная газом","| A' | = | p | \\cdot | \\Delta V | &nbsp;","3");
-INSERT INTO formulas VALUES ("0","уравнение первого начала термодинамики","| Q | = | \\Delta U | + | A' | &nbsp;","3");
+INSERT INTO formulas VALUES ("0","работа, совершенная газом","| A' | = | p | \\cdot | \\Delta{V} | &nbsp;","3");
+INSERT INTO formulas VALUES ("0","уравнение первого начала термодинамики","| Q | = | \\Delta{U} | + | A' | &nbsp;","3");
 INSERT INTO formulas VALUES ("0","уравнение теплового баланса","| \\sum_{i=1}^n | &nbsp; | Q_i | = | 0 | &nbsp;","3");
 INSERT INTO formulas VALUES ("0","КПД идеальной тепловой машины","| &#951 | =\\frac{ | T_1 | - | T_2 | }{ | T-1 | }","3");
 INSERT INTO formulas VALUES ("0","КПД теплового двигателя","| &#951 | = | &#951 | =\\frac{ | Q_1 | - | Q_2 | }{ | Q_1 | }","3");
