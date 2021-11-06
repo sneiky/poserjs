@@ -43,9 +43,7 @@ INSERT INTO themes VALUES ("0","Оптика","svg/op.svg");
 INSERT INTO themes VALUES ("0","Теория относительности","svg/to.svg");
 INSERT INTO themes VALUES ("0","Квантовая, атомная и ядерная физика","svg/kv.svg");
 --
-INSERT INTO formulas VALUES ("0","закон преломления света","\\frac{ | \\sin\\alpha | }{ | \\sin\\beta | }=\\frac{ | n_2 | }{ | n_1 | }=\\frac{ | &upsilon;_1 | }{ | &upsilon;_2 | }","5");
-INSERT INTO formulas VALUES ("0","абсолютный показатель преломления","| n | =\\frac{ | c | }{ | &upsilon; | }","5");
-INSERT INTO formulas VALUES ("0","формула тонкой линзы","| &nbsp; | \\pm\\frac{ | 1 | }{ | F | }=\\pm\\frac{ | 1 | }{ | f | }\\pm\\frac{ | 1 | }{ | d | }","5");
+INSERT INTO formulas VALUES ("0","формула тонкой линзы","\\pm\\frac{ | 1 | }{ | F | }","5");
 INSERT INTO formulas VALUES ("0","оптическая сила линзы","| D | =\\frac{ | 1 | }{ | F | }","5");
 INSERT INTO formulas VALUES ("0","линейное увеличение линзы","| \\Gamma | =\\frac{ | H | }{ | h | }=\\frac{ | f | }{ | d | }","5");
 INSERT INTO formulas VALUES ("0","условие интерференционного минимума","| \\Delta | =( | 2 | \\cdot | k | + | 1 | )\\cdot\\frac{ | \\lambda | }{ | 2 | }","5");
