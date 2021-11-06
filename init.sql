@@ -43,15 +43,6 @@ INSERT INTO themes VALUES ("0","Оптика","svg/op.svg");
 INSERT INTO themes VALUES ("0","Теория относительности","svg/to.svg");
 INSERT INTO themes VALUES ("0","Квантовая, атомная и ядерная физика","svg/kv.svg");
 --
-INSERT INTO formulas VALUES ("0","циклическая частота","| \\omega | = | 2 | \\cdot | \\pi | \\cdot | &nu; | &nbsp;","1");
-INSERT INTO formulas VALUES ("0","циклическая частота","| \\omega | =\\frac{ | 2 | \\cdot | \\pi | }{ | T | }","1");
-INSERT INTO formulas VALUES ("0","связь между периодом и частотой колебаний","| T | =\\frac{ | 1 | }{ | T | }","1");
-INSERT INTO formulas VALUES ("0","связь между периодом и частотой колебаний","| &nu; | =\\frac{ | 1 | }{ | T | }","1");
-INSERT INTO formulas VALUES ("0","максимальная скорость колеблющегося тела","| &upsilon;_m | = | \\omega | \\cdot | A | &nbsp;","1");
-INSERT INTO formulas VALUES ("0","максимальное ускорение колеблющегося тела","| a_m | = | (-1) | \\cdot | \\omega^2 | \\cdot | A | &nbsp;","1");
-INSERT INTO formulas VALUES ("0","период колебаний пружинного маятника","| T | = | 2 | \\cdot | \\pi | \\sqrt{\\frac{ | m | }{ | k | } } &nbsp;","1");
-INSERT INTO formulas VALUES ("0","период колебаний математического маятника","| T | = | 2 | \\cdot | \\pi | \\sqrt{\\frac{ | l | }{ | g | }} &nbsp;","1");
-INSERT INTO formulas VALUES ("0","полная энергия колеблющегося на пружине тела","| &nbsp; | \\frac{ | k | \\cdot | A^2 | }{ | 2 | } = \\frac{ | m | \\cdot | &upsilon;_x^2 | }{ | 2 | } + \\frac{ | k | \\cdot | x^2 | }{ | 2 | } = \\frac{ | m | \\cdot | &upsilon;_m^2 | }{ | 2 | }","1");
 INSERT INTO formulas VALUES ("0","длина волны","| \\lambda | = | &upsilon; | \\cdot | T | &nbsp;","1");
 INSERT INTO formulas VALUES ("0","количество вещества","| \\nu | =\\frac{ | N | }{ | N_A | } = \\frac{ | m | }{ | M | }","2");
 INSERT INTO formulas VALUES ("0","молярная масса","| M | = | m_o | \\cdot | N_A | &nbsp;","2");
