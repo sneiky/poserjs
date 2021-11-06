@@ -43,10 +43,8 @@ INSERT INTO themes VALUES ("0","Оптика","svg/op.svg");
 INSERT INTO themes VALUES ("0","Теория относительности","svg/to.svg");
 INSERT INTO themes VALUES ("0","Квантовая, атомная и ядерная физика","svg/kv.svg");
 --
-INSERT INTO formulas VALUES ("0","закон всемирного тяготения","| F | = | G | \\cdot \\frac{ | m_1 | \\cdot | m_2 | }{ | r^2 | }","1");
-INSERT INTO formulas VALUES ("0","ускорения свободного падения","| g | = | G | \\frac{ | M | }{ ( | R | + | h | )^2}","1");
-INSERT INTO formulas VALUES ("0","первая космическая скорость","| &upsilon; | = \\sqrt{ | G | \\frac{ | M | }{ | R | } }","1");
-INSERT INTO formulas VALUES ("0","второй закон Ньютона в импульсной форме","| \\vec{F} | \\cdot | t | = | m | \\cdot | \\vec{&upsilon;} | - | m | | \\vec{&upsilon;_0} | &nbsp;","1");
+INSERT INTO formulas VALUES ("0","ускорения свободного падения","| g | = | G | \\cdot \\frac{ | M | }{ ( | R | + | h | )^2}","1");
+INSERT INTO formulas VALUES ("0","первая космическая скорость","| &upsilon; | = \\sqrt{ | G | \\cdot \\frac{ | M | }{ | R | }}","1");
 INSERT INTO formulas VALUES ("0","закон сохранения импулься двух тел","| m_1 | \\cdot | \\vec{&upsilon;_1} | + | m_2 | \\cdot | \\vec{&upsilon;_2} | = | m_1 | \\cdot | \\vec{{&upsilon;_1}^\\prime} | + | m_2 | \\cdot | \\vec{{&upsilon;_2}^\\prime} | &nbsp;","1");
 INSERT INTO formulas VALUES ("0","момент силы относительно оси вращения","| M | = | F | \\cdot | d | &nbsp;","1");
 INSERT INTO formulas VALUES ("0","условие равновесия тела, не имеющего оси вращения","| \\sum_{i=1}^m | &nbsp; | \\vec{F}_i | = | \\vec{0} | &nbsp;","1");
