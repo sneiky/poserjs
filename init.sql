@@ -43,18 +43,6 @@ INSERT INTO themes VALUES ("0","Оптика","svg/op.svg");
 INSERT INTO themes VALUES ("0","Теория относительности","svg/to.svg");
 INSERT INTO themes VALUES ("0","Квантовая, атомная и ядерная физика","svg/kv.svg");
 --
-INSERT INTO formulas VALUES ("0","формула связи модулей сил, действующих на поршни гидравлической машины","| F_2 | = | F_1 | \\cdot \\frac{ | S_2 | }{ | S_1 | }","1");
-INSERT INTO formulas VALUES ("0","работа постоянной силы","| A | = | F | \\cdot | S | \\cdot | \\cos\\alpha | &nbsp;","1");
-INSERT INTO formulas VALUES ("0","работа силы трения","| A | = | (-1) | \\cdot | F_{тр} | \\cdot | s | &nbsp;","1");
-INSERT INTO formulas VALUES ("0","работа силы тяжести","| A | = | m | \\cdot | g | ( | h_1 | - | h_2 | ) &nbsp;","1");
-INSERT INTO formulas VALUES ("0","работа силы упругости","| A | =\\frac{ | k | }{ | 2 | } \\cdot( | x_1^2 | - | x_2^2 | )","1");
-INSERT INTO formulas VALUES ("0","мощность при равномерном прямолинейном движении","| N | = | F | \\cdot | &upsilon; | &nbsp;","1");
-INSERT INTO formulas VALUES ("0","мощность","| N | =\\frac{ | A | }{ | t | }","1");
-INSERT INTO formulas VALUES ("0","кинетическая энергия тела","| E_к | =\\frac{ | m | \\cdot | &upsilon;^2 | }{ | 2 | }","1");
-INSERT INTO formulas VALUES ("0","потенциальная энергия тела","| E_п | = | m | \\cdot | g | \\cdot | h | &nbsp;","1");
-INSERT INTO formulas VALUES ("0","потенциальная энергия упруго деформированного тела","| E_п | =\\frac{ | kx_2 | }{ | 2 | }","1");
-INSERT INTO formulas VALUES ("0","полная механическая энергия замкнутой системы тел","| E | = | E_п | + | E_к | = | const | &nbsp;","1");
-INSERT INTO formulas VALUES ("0","теорема о кинетической энергии тела","| A | =\\frac{ | m | \\cdot | &upsilon;_2^2 | }{ | 2 | } - \\frac{ | m | \\cdot | &upsilon;_1^2 | }{ | 2 | }","1");
 INSERT INTO formulas VALUES ("0","КПД","| &#951 | =\\frac{ | A_п | }{ | A | }","1");
 INSERT INTO formulas VALUES ("0","КПД","| &#951 | =\\frac{ | N_п | }{ | N | }","1");
 INSERT INTO formulas VALUES ("0","зависимость координаты колеблющегося тела от времени","| x | = | A | \\cdot | \\sin | ( | \\omega | \\cdot | t | + | &phi;_0 | ) &nbsp;","1");
