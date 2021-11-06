@@ -43,9 +43,6 @@ INSERT INTO themes VALUES ("0","Оптика","svg/op.svg");
 INSERT INTO themes VALUES ("0","Теория относительности","svg/to.svg");
 INSERT INTO themes VALUES ("0","Квантовая, атомная и ядерная физика","svg/kv.svg");
 --
-INSERT INTO formulas VALUES ("0","импульс фотона","| p | = | m | \\cdot | c | &nbsp;","7");
-INSERT INTO formulas VALUES ("0","импульс фотона","| p | =\\frac{ | h | \\cdot | v | }{ | c | }","7");
-INSERT INTO formulas VALUES ("0","работа выхода","| A | = | h | \\cdot | &nu;_min | = | h | \\frac{ | c | }{ | \\lambda_{кр} | }","7");
 INSERT INTO formulas VALUES ("0","условие прекращения фотоэффекта","| &nbsp; | \\frac{ | m | \\cdot | &nu;^2 | }{ | 2 | }= | e | \\cdot | U_з | &nbsp;","7");
 INSERT INTO formulas VALUES ("0","2-й постулат Бора","| h | \\cdot | &nu; | = | E_п | - | E_m | &nbsp;","7");
 INSERT INTO formulas VALUES ("0","длина волны де-Бройля","| \\lambda | =\\frac{ | h | }{ | m | \\cdot | &upsilon; | }","7");
