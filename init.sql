@@ -43,9 +43,6 @@ INSERT INTO themes VALUES ("0","Оптика","svg/op.svg");
 INSERT INTO themes VALUES ("0","Теория относительности","svg/to.svg");
 INSERT INTO themes VALUES ("0","Квантовая, атомная и ядерная физика","svg/kv.svg");
 --
-INSERT INTO formulas VALUES ("0","условие интерференционного максимума","| \\Delta | = | k | \\cdot | \\lambda | &nbsp;","5");
-INSERT INTO formulas VALUES ("0","условие максимумов дифракционной решетки","| d | \\cdot | \\sin&phi; | = | k | \\cdot | \\lambda | &nbsp;","5");
-INSERT INTO formulas VALUES ("0","релятивиcтский закон сложения скоростей","| &upsilon; | =\\frac{ | &upsilon;_1 | + | &upsilon;_2 | }{ | 1 | +\\frac{ | &upsilon;_1 | \\cdot | &upsilon;_2 | }{ | c^2 | }}","6");
 INSERT INTO formulas VALUES ("0","длина стержня в инерциальной системе, относительно которой он движется со скоростью","| l | = | l_0 | \\sqrt{ | 1 | -\\frac{ | &upsilon;^2 | }{ | c^2 | }}","6");
 INSERT INTO formulas VALUES ("0","интервал времени между двумя событиями в точке, которя движется относительо инерциальной системы со скоростью","| &tau; | =\\frac{ | &tau;_0 | }{\\sqrt{ | 1 | -\\frac{ | &upsilon;^2 | }{ | c^2 | }}}","6");
 INSERT INTO formulas VALUES ("0","зависимость массы тела от скорости","| m | =\\frac{ | m_0 | }{\\sqrt{ | 1 | -\\frac{ | &upsilon;^2 | }{ | c^2 | }}}","6");
