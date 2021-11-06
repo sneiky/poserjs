@@ -395,17 +395,21 @@ formulas
 #| \omega | \cdot | t | + | &phi;_0 | ) &nbsp;  
 #1  
 #
+#0  
+#зависимость проекции ускорения колеблющегося тела 
+#от времени  
+#| a_x | = | (-1) | \cdot | a_m | \cdot | \sin | ( | \omega 
+#| \cdot | t | + | &phi;_0 | ) &nbsp;  
+#1  
+#
 0  
-зависимость проекции ускорения колеблющегося тела 
-от времени  
-| a_x | = | (-1) | \cdot | a_m | \cdot | \sin | ( | \omega 
-| \cdot | t | + | &phi;_0 | ) &nbsp;  
+циклическая частота  
+| \omega | = | 2 | \cdot | \pi | \cdot | &nu; | &nbsp;  
 1  
 
 0  
 циклическая частота  
-| \omega | = | 2 | \cdot | \pi | \cdot | &nu; 
-| =\frac{ | 2 | \cdot | \pi | }{ | T | }  
+| \omega | =\frac{ | 2 | \cdot | \pi | }{ | T | }  
 1  
 
 0  

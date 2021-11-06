@@ -43,8 +43,8 @@ INSERT INTO themes VALUES ("0","Оптика","svg/op.svg");
 INSERT INTO themes VALUES ("0","Теория относительности","svg/to.svg");
 INSERT INTO themes VALUES ("0","Квантовая, атомная и ядерная физика","svg/kv.svg");
 --
-INSERT INTO formulas VALUES ("0","зависимость проекции ускорения колеблющегося тела от времени","| a_x | = | (-1) | \\cdot | a_m | \\cdot | \\sin | ( | \\omega | \\cdot | t | + | &phi;_0 | ) &nbsp;","1");
-INSERT INTO formulas VALUES ("0","циклическая частота","| \\omega | = | 2 | \\cdot | \\pi | \\cdot | &nu; | =\\frac{ | 2 | \\cdot | \\pi | }{ | T | }","1");
+INSERT INTO formulas VALUES ("0","циклическая частота","| \\omega | = | 2 | \\cdot | \\pi | \\cdot | &nu; | &nbsp;","1");
+INSERT INTO formulas VALUES ("0","циклическая частота","| \\omega | =\\frac{ | 2 | \\cdot | \\pi | }{ | T | }","1");
 INSERT INTO formulas VALUES ("0","связь между периодом и частотой колебаний","| T | =\\frac{ | 1 | }{ | T | }","1");
 INSERT INTO formulas VALUES ("0","связь между периодом и частотой колебаний","| &nu; | =\\frac{ | 1 | }{ | T | }","1");
 INSERT INTO formulas VALUES ("0","максимальная скорость колеблющегося тела","| &upsilon;_m | = | \\omega | \\cdot | A | &nbsp;","1");
