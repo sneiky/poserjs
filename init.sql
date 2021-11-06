@@ -43,7 +43,7 @@ INSERT INTO themes VALUES ("0","Оптика","svg/op.svg");
 INSERT INTO themes VALUES ("0","Теория относительности","svg/to.svg");
 INSERT INTO themes VALUES ("0","Квантовая, атомная и ядерная физика","svg/kv.svg");
 --
-INSERT INTO formulas VALUES ("0","длина стержня в инерциальной системе, относительно которой он движется со скоростью","| l | = | l_0 | \\sqrt{ | 1 | -\\frac{ | &upsilon;^2 | }{ | c^2 | }}","6");
+INSERT INTO formulas VALUES ("0","длина стержня в инерциальной системе, относительно которой он движется со скоростью","| l | = | l_0 | \\cdot \\sqrt{ | 1 | -\\frac{ | &upsilon;^2 | }{ | c^2 | }}","6");
 INSERT INTO formulas VALUES ("0","интервал времени между двумя событиями в точке, которя движется относительо инерциальной системы со скоростью","| &tau; | =\\frac{ | &tau;_0 | }{\\sqrt{ | 1 | -\\frac{ | &upsilon;^2 | }{ | c^2 | }}}","6");
 INSERT INTO formulas VALUES ("0","зависимость массы тела от скорости","| m | =\\frac{ | m_0 | }{\\sqrt{ | 1 | -\\frac{ | &upsilon;^2 | }{ | c^2 | }}}","6");
 INSERT INTO formulas VALUES ("0","связь между массой и энергией","| E | = | m | \\cdot | c^2 | &nbsp;","6");
