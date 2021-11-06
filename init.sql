@@ -43,8 +43,7 @@ INSERT INTO themes VALUES ("0","Оптика","svg/op.svg");
 INSERT INTO themes VALUES ("0","Теория относительности","svg/to.svg");
 INSERT INTO themes VALUES ("0","Квантовая, атомная и ядерная физика","svg/kv.svg");
 --
-INSERT INTO formulas VALUES ("0","внутренняя энергия идеального газа","| U | = \\frac{ | i | }{ | 2 | } \\cdot \\frac{ | m | }{ | M | } \\cdot | R | \\cdot | T | &nbsp;","3");
-INSERT INTO formulas VALUES ("0","колличество теплоты, поглощаемое или выделяемое телом при изменении его температуры","| Q | = | c | \\cdot | m | ( | t_2 | - | t_1 | ) &nbsp;","3");
+INSERT INTO formulas VALUES ("0","колличество теплоты, поглощаемое или выделяемое телом при изменении его температуры","| Q | = | c | \\cdot | m | \\cdot ( | t_2 | - | t_1 | )","3");
 INSERT INTO formulas VALUES ("0","теплоемкость тела","| C | = | c | \\cdot | m | &nbsp;","3");
 INSERT INTO formulas VALUES ("0","колличество теплоты, необходимое для превращения в пар жидкости, взятой при температуре кипения","| Q_п | = | r | \\cdot | m | &nbsp;","3");
 INSERT INTO formulas VALUES ("0","колличество теплоты, необходимое для плавления кристаллического вещества, взятого при температуре плавления","| Q_{пл} | = | \\lambda | \\cdot | m | &nbsp;","3");
