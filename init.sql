@@ -43,11 +43,6 @@ INSERT INTO themes VALUES ("0","Оптика","svg/op.svg");
 INSERT INTO themes VALUES ("0","Теория относительности","svg/to.svg");
 INSERT INTO themes VALUES ("0","Квантовая, атомная и ядерная физика","svg/kv.svg");
 --
-INSERT INTO formulas VALUES ("0","уравнение Клайперона","\\frac{ | p | \\cdot | V | }{ | T | }= | const | &nbsp;","2");
-INSERT INTO formulas VALUES ("0","уравнение Менделеева-Клайперона","| p | \\cdot | V | = \\frac{ | m | }{ | M | }\\cdot | R | \\cdot | T | &nbsp;","2");
-INSERT INTO formulas VALUES ("0","закон Бойля-Мариота","| p | \\cdot | v | = | const | при | T | = | const | &nbsp;","2");
-INSERT INTO formulas VALUES ("0","закон Гей-Люссака","| &nbsp; | \\frac{ | V | }{ | T | }= | const | | при | p | = | const | &nbsp;","2");
-INSERT INTO formulas VALUES ("0","закон Шарля","| &nbsp; | \\frac{ | p | }{ | T | }= | const | при | V | = | const | &nbsp;","2");
 INSERT INTO formulas VALUES ("0","внутренняя энергия идеального газа","| U | = \\frac{ | i | }{ | 2 | } \\cdot \\frac{ | m | }{ | M | } \\cdot | R | \\cdot | T | &nbsp;","3");
 INSERT INTO formulas VALUES ("0","колличество теплоты, поглощаемое или выделяемое телом при изменении его температуры","| Q | = | c | \\cdot | m | ( | t_2 | - | t_1 | ) &nbsp;","3");
 INSERT INTO formulas VALUES ("0","теплоемкость тела","| C | = | c | \\cdot | m | &nbsp;","3");

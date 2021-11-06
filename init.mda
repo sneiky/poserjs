@@ -498,34 +498,34 @@ formulas
 #| \cdot | T | }{ | M | } } &nbsp;  
 #2  
 #
-0  
-уравнение Клайперона  
-\frac{ | p | \cdot | V | }{ | T | }= | const | &nbsp;  
-2  
-
-0  
-уравнение Менделеева-Клайперона  
-| p | \cdot | V | = \frac{ | m | }{ | M | }\cdot 
-| R | \cdot | T | &nbsp;  
-2  
-
-0  
-закон Бойля-Мариота  
-| p | \cdot | v | = | const | при | T | = | const | &nbsp;  
-2  
-
-0  
-закон Гей-Люссака  
-| &nbsp; | \frac{ | V | }{ | T | }= | const | 
-| при | p | = | const | &nbsp;  
-2  
-
-0  
-закон Шарля  
-| &nbsp; | \frac{ | p | }{ | T | }= | const 
-| при | V | = | const | &nbsp;  
-2  
-
+#0  
+#уравнение Клайперона  
+#\frac{ | p | \cdot | V | }{ | T | }= | const | &nbsp;  
+#2  
+#
+#0  
+#уравнение Менделеева-Клайперона  
+#| p | \cdot | V | = \frac{ | m | }{ | M | }\cdot 
+#| R | \cdot | T | &nbsp;  
+#2  
+#
+#!0  
+#!закон Бойля-Мариота  
+#!| p | \cdot | v | = | const | при | T | = | const | &nbsp;  
+#!2  
+#!
+#!0  
+#!закон Гей-Люссака  
+#!| &nbsp; | \frac{ | V | }{ | T | }= | const | 
+#!| при | p | = | const | &nbsp;  
+#!2  
+#!
+#!0  
+#!закон Шарля  
+#!| &nbsp; | \frac{ | p | }{ | T | }= | const 
+#!| при | V | = | const | &nbsp;  
+#!2  
+#!
 0  
 внутренняя энергия идеального газа  
 | U | = \frac{ | i | }{ | 2 | } \cdot \frac{ | m 
