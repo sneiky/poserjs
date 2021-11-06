@@ -43,9 +43,6 @@ INSERT INTO themes VALUES ("0","Оптика","svg/op.svg");
 INSERT INTO themes VALUES ("0","Теория относительности","svg/to.svg");
 INSERT INTO themes VALUES ("0","Квантовая, атомная и ядерная физика","svg/kv.svg");
 --
-INSERT INTO formulas VALUES ("0","оптическая сила линзы","| D | =\\frac{ | 1 | }{ | F | }","5");
-INSERT INTO formulas VALUES ("0","линейное увеличение линзы","| \\Gamma | =\\frac{ | H | }{ | h | }=\\frac{ | f | }{ | d | }","5");
-INSERT INTO formulas VALUES ("0","условие интерференционного минимума","| \\Delta | =( | 2 | \\cdot | k | + | 1 | )\\cdot\\frac{ | \\lambda | }{ | 2 | }","5");
 INSERT INTO formulas VALUES ("0","условие интерференционного максимума","| \\Delta | = | k | \\cdot | \\lambda | &nbsp;","5");
 INSERT INTO formulas VALUES ("0","условие максимумов дифракционной решетки","| d | \\cdot | \\sin&phi; | = | k | \\cdot | \\lambda | &nbsp;","5");
 INSERT INTO formulas VALUES ("0","релятивиcтский закон сложения скоростей","| &upsilon; | =\\frac{ | &upsilon;_1 | + | &upsilon;_2 | }{ | 1 | +\\frac{ | &upsilon;_1 | \\cdot | &upsilon;_2 | }{ | c^2 | }}","6");
