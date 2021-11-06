@@ -43,15 +43,7 @@ INSERT INTO themes VALUES ("0","Оптика","svg/op.svg");
 INSERT INTO themes VALUES ("0","Теория относительности","svg/to.svg");
 INSERT INTO themes VALUES ("0","Квантовая, атомная и ядерная физика","svg/kv.svg");
 --
-INSERT INTO formulas VALUES ("0","длина волны","| \\lambda | = | &upsilon; | \\cdot | T | &nbsp;","1");
-INSERT INTO formulas VALUES ("0","количество вещества","| \\nu | =\\frac{ | N | }{ | N_A | } = \\frac{ | m | }{ | M | }","2");
-INSERT INTO formulas VALUES ("0","молярная масса","| M | = | m_o | \\cdot | N_A | &nbsp;","2");
-INSERT INTO formulas VALUES ("0","основное уравнение МКТ идеального газа, записанное через квадрат скорости движения молекул","| p | = \\frac{ | 1 | }{ | 3 | } \\cdot | n | \\cdot | m_o | \\cdot | (\\overline{&upsilon;})^2 | &nbsp;","2");
-INSERT INTO formulas VALUES ("0","основное уравнение МКТ идеального газа, записанное через среднюю кинетическую энергию поступательного движения молекул","| p | = \\frac{ | 2 | }{ | 3 | } \\cdot | n | \\cdot | \\overline{E} | &nbsp;","2");
-INSERT INTO formulas VALUES ("0","зависимость давления газа от температуры и концентрации его молекул","| p | = | n | \\cdot | k | \\cdot | t | &nbsp;","2");
-INSERT INTO formulas VALUES ("0","зависимость средней кинетической энергии поступательного движения молекул от температуры","| \\overline{E} | = \\frac{ | 3 | }{ | 2 | } \\cdot | k | \\cdot | T | &nbsp;","2");
-INSERT INTO formulas VALUES ("0","зависимость средней квадратичной скорости движения молекул от температуры","| &upsilon; | = \\sqrt{ \\frac{ | 3 | \\cdot | R | \\cdot | T | }{ | M | } } &nbsp;","2");
-INSERT INTO formulas VALUES ("0","уравнение Клайперона","| &nbsp; | \\frac{ | p | \\cdot | V | }{ | T | }= | const |&nbsp;","2");
+INSERT INTO formulas VALUES ("0","уравнение Клайперона","\\frac{ | p | \\cdot | V | }{ | T | }= | const | &nbsp;","2");
 INSERT INTO formulas VALUES ("0","уравнение Менделеева-Клайперона","| p | \\cdot | V | = \\frac{ | m | }{ | M | }\\cdot | R | \\cdot | T | &nbsp;","2");
 INSERT INTO formulas VALUES ("0","закон Бойля-Мариота","| p | \\cdot | v | = | const | при | T | = | const | &nbsp;","2");
 INSERT INTO formulas VALUES ("0","закон Гей-Люссака","| &nbsp; | \\frac{ | V | }{ | T | }= | const | | при | p | = | const | &nbsp;","2");
