@@ -43,9 +43,7 @@ INSERT INTO themes VALUES ("0","Оптика","svg/op.svg");
 INSERT INTO themes VALUES ("0","Теория относительности","svg/to.svg");
 INSERT INTO themes VALUES ("0","Квантовая, атомная и ядерная физика","svg/kv.svg");
 --
-INSERT INTO formulas VALUES ("0","закон Кулона","| F | = | k | \\frac{ \\vert | q_1 | \\vert \\cdot \\vert | q_2 | \\vert }{ | &epsilon; | \\cdot | r^2 | }","4");
-INSERT INTO formulas VALUES ("0","коэффициент пропорциональности","| k | =\\frac{ | 1 | }{ | 4 | \\cdot | \\pi | \\cdot | &epsilon;_0 | }","4");
-INSERT INTO formulas VALUES ("0","коэффициент пропорциональности","| k | = | 9 | \\cdot | 10^9 | \\frac{ | &Iota; | \\cdot | \\iota | }{ | \\hat{E} | \\cdot | ё^2 | }","4");
+INSERT INTO formulas VALUES ("0","коэффициент пропорциональности","| k | = | 9 | \\cdot | 10^9 | \\cdot \\frac{ | &Iota; | \\cdot | \\iota | }{ | \\hat{E} | \\cdot | ё^2 | }","4");
 INSERT INTO formulas VALUES ("0","напряженность электростатического поля","| \\vec{E} | =\\frac{ | \\vec{F} | }{ | q | }","4");
 INSERT INTO formulas VALUES ("0","модуль напряженности электростатического поля точечного заряда","| E | =\\frac{\\vert | q | \\vert}{ | &epsilon; | \\cdot | r^2 | }","4");
 INSERT INTO formulas VALUES ("0","модуль напряженности электростатического поля, заряженного поля","| E | = | k | \\cdot \\frac{  \\vert | q_ш | \\vert  }{ | &epsilon; | \\cdot ( | R | + | r | )^2 }","4");

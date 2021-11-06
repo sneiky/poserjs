@@ -588,21 +588,21 @@ formulas
 #!| &#951 | =\frac{ | Q_1 | - | Q_2 | }{ | Q_1 | }  
 #!3  
 #!
-0  
-закон Кулона  
-| F | = | k | \frac{ \vert | q_1 | \vert \cdot \vert | q_2 
-| \vert }{ | &epsilon; | \cdot | r^2 | }  
-4  
-
+#0  
+#закон Кулона  
+#| F | = | k | \frac{ \vert | q_1 | \vert \cdot \vert | q_2 
+#| \vert }{ | &epsilon; | \cdot | r^2 | }  
+#4  
+#
+#0  
+#коэффициент пропорциональности  
+#| k | =\frac{ | 1 | }{ | 4 | \cdot | \pi | \cdot 
+#| &epsilon;_0 | }  
+#4  
+#
 0  
 коэффициент пропорциональности  
-| k | =\frac{ | 1 | }{ | 4 | \cdot | \pi | \cdot 
-| &epsilon;_0 | }  
-4  
-
-0  
-коэффициент пропорциональности  
-| k | = | 9 | \cdot | 10^9 | \frac{ 
+| k | = | 9 | \cdot | 10^9 | \cdot \frac{ 
 | &Iota; | \cdot | \iota | }{ | \hat{E} | \cdot 
 | ё^2 | }  
 4  
