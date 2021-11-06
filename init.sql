@@ -43,11 +43,7 @@ INSERT INTO themes VALUES ("0","Оптика","svg/op.svg");
 INSERT INTO themes VALUES ("0","Теория относительности","svg/to.svg");
 INSERT INTO themes VALUES ("0","Квантовая, атомная и ядерная физика","svg/kv.svg");
 --
-INSERT INTO formulas VALUES ("0","проекция перемещения на ось X","| s_x | = | x | + | x_0 | &nbsp;","1");
-INSERT INTO formulas VALUES ("0","скорость равномерного прямолинейного движения","| \\vec{&upsilon;} | = \\frac{ | \\vec{s} | }{ | t | }","1");
-INSERT INTO formulas VALUES ("0","средняя скорость","| &upsilon;_{ср} | = \\frac{ | s | }{ | t | }","1");
-INSERT INTO formulas VALUES ("0","уравнение равномерного прямолинейного движения","| x | = | x_0 | + | &upsilon;_x | \\cdot | t | &nbsp;","1");
-INSERT INTO formulas VALUES ("0","ускорение при равноускоренном движении","| \\vec{a} | =\\frac{ | \\vec{&upsilon;} | - | {  \\vec{&upsilon;_0} | }}{ | t | }","1");
+INSERT INTO formulas VALUES ("0","ускорение при равноускоренном движении","| \\vec{a} | =\\frac{ | \\vec{&upsilon;} | - | \\vec{&upsilon;_0} | }{ | t | }","1");
 INSERT INTO formulas VALUES ("0","скорость при равноускоренном движении","| \\vec{&upsilon;} | = | \\vec{&upsilon;_0} | - | \\vec{a} | \\cdot | t | &nbsp;","1");
 INSERT INTO formulas VALUES ("0","перемещение при равноускоренном движении","| \\vec{s} | =\\frac{ | \\vec{&upsilon;} | + | \\vec{&upsilon;_0} | }{ | 2 | }\\cdot | t | &nbsp;","1");
 INSERT INTO formulas VALUES ("0","проекция перемещения при равноускоренном движении от времени","| \\vec{s} | = | \\vec{&upsilon;_0} | \\cdot | t | +\\frac{ | \\vec{a} | \\cdot | t^2 | }{ | 2 |  }","1");
