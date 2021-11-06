@@ -1068,15 +1068,15 @@ formulas
 #| }} &nbsp;  
 #7  
 #
-0  
-дефект масс  
-| \Delta{M} | = | Z | \cdot | m_п 
-| + | N | \cdot | m_н | - | M_я | &nbsp;  
-7  
-
+#0  
+#дефект масс  
+#| \Delta{M} | = | Z | \cdot | m_п 
+#| + | N | \cdot | m_н | - | M_я | &nbsp;  
+#7  
+#
 0  
 энергия связи атомных ядер  
-| E_{св} | = | \Delta | \cdot | M | \cdot | c^2 | &nbsp;  
+| E_{св} | = | \Delta{M} | \cdot | c^2 | &nbsp;  
 7  
 }  
 
