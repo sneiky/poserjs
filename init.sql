@@ -43,15 +43,7 @@ INSERT INTO themes VALUES ("0","Оптика","svg/op.svg");
 INSERT INTO themes VALUES ("0","Теория относительности","svg/to.svg");
 INSERT INTO themes VALUES ("0","Квантовая, атомная и ядерная физика","svg/kv.svg");
 --
-INSERT INTO formulas VALUES ("0","ускорения свободного падения","| g | = | G | \\cdot \\frac{ | M | }{ ( | R | + | h | )^2}","1");
-INSERT INTO formulas VALUES ("0","первая космическая скорость","| &upsilon; | = \\sqrt{ | G | \\cdot \\frac{ | M | }{ | R | }}","1");
-INSERT INTO formulas VALUES ("0","момент силы относительно оси вращения","| M | = | F | \\cdot | d | &nbsp;","1");
-INSERT INTO formulas VALUES ("0","условие равновесия тела, не имеющего оси вращения","| \\sum_{i=1}^m | &nbsp; | \\vec{F}_i | = | \\vec{0} | &nbsp;","1");
-INSERT INTO formulas VALUES ("0","условие равновесия тела, имеющего ось вращения","| \\sum_{i=1}^n | &nbsp; | M_i | = | 0 | &nbsp;","1");
-INSERT INTO formulas VALUES ("0","плотность вещества","| &rho; | =\\frac{ | m | }{ | V | }","1");
-INSERT INTO formulas VALUES ("0","давление","| p | =\\frac{ | F | }{ | S | }","1");
-INSERT INTO formulas VALUES ("0","зависимость давления жидкости от высоты ее столба","| p | = | &rho; | \\cdot | g | \\cdot | h | &nbsp;","1");
-INSERT INTO formulas VALUES ("0","сила давления жидкости на дно сосуда","| F_{дно} | = | &rho; | \\cdot | g | \\cdot | H | \\cdot | S_{дно}","1");
+INSERT INTO formulas VALUES ("0","сила давления жидкости на дно сосуда","| F_{дно} | = | &rho; | \\cdot | g | \\cdot | H | \\cdot | S_{дно} | &nbsp;","1");
 INSERT INTO formulas VALUES ("0","сила давления жидкости на боковую поверхность сосуда","| F_{бок} | =\\frac{ | 1 | }{ | 2 | } \\cdot | &rho; | \\cdot | g | \\cdot | H | \\cdot | S_{бок} | &nbsp;","1");
 INSERT INTO formulas VALUES ("0","закон сообщающихся сосудов для разнородных жидкостей"," \\frac{ | h_1 | }{ | h_2 | } = \\frac{ | &rho;_1 | }{ | &rho;_2 | }","1");
 INSERT INTO formulas VALUES ("0","закон Архимеда","| F_a | = | &rho; | \\cdot | g | \\cdot | V | &nbsp;","1");
