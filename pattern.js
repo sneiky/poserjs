@@ -56,8 +56,8 @@ function press_div_sq1(event) {
   if (div.dataset.disunu == $palica) {
     let palist = $palist.slice(0);
     let slide = convert_palist_to_paslide(palist, $palica)
-    if ($div_h != null) {
-      alert("jija");
+    let divh_len = document.querySelectorAll(".h").length;
+    if (divh_len != 1) {
       $div_h.innerHTML = "";
       $div_h.append(slide);
       MathJax.typeset();
