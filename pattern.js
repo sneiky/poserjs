@@ -28,20 +28,26 @@ function press_button_bnext(event) {
   //
   $div_h.remove();
   $div_h = document.querySelector(".h");
-  $div_h.style.display = "flex";
+  if ($div_h != null) {
+    $div_h.style.display = "flex";
+  }
   //
   $div_t.remove();
   $div_t = document.querySelector(".t");
-  $div_t.style.display = "flex";
+  if ($div_t != null) {
+    $div_t.style.display = "flex";
+  }
   //
   $div_square.innerHTML = "";
   //
-  convert_formula_to_interactive(
-    $div_h,
-    $div_t,
-    $div_square,
-    $div_massage
-  );
+  if ($div_h != null) {
+    convert_formula_to_interactive(
+      $div_h,
+      $div_t,
+      $div_square,
+      $div_massage
+    );
+  }
   //
 }
 //
@@ -50,17 +56,16 @@ function press_div_sq1(event) {
   if (div.dataset.disunu == $palica) {
     let palist = $palist.slice(0);
     let slide = convert_palist_to_paslide(palist, $palica)
-    $div_h.innerHTML = "";
-    $div_h.append(slide);
-    MathJax.typeset();
-    $palica++;
-    div.style.display = "none";
-    //
-    //alert(palist.length+"\n"+$palica);
-    //
-    if ((palist.length - 1) / 2 == $palica) {
-      $palica = 1;
-      create_button_bnext($div_square);
+    if ($div_h != null) {
+      $div_h.innerHTML = "";
+      $div_h.append(slide);
+      MathJax.typeset();
+      $palica++;
+      div.style.display = "none";
+      if ((palist.length - 1) / 2 == $palica) {
+        $palica = 1;
+        create_button_bnext($div_square);
+      }
     }
   } else {
     $score += 1;
