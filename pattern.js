@@ -67,6 +67,7 @@ function press_div_sq1(event) {
         create_button_bnext($div_square);
       }
     } else {
+      alert("jojo");
       $div_square.innerHTML = "The End!";
     }
   } else {
