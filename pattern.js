@@ -57,6 +57,7 @@ function press_div_sq1(event) {
     let palist = $palist.slice(0);
     let slide = convert_palist_to_paslide(palist, $palica)
     if ($div_h != null) {
+      alert("jija");
       $div_h.innerHTML = "";
       $div_h.append(slide);
       MathJax.typeset();
