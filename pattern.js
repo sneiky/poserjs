@@ -66,6 +66,8 @@ function press_div_sq1(event) {
         $palica = 1;
         create_button_bnext($div_square);
       }
+    } else {
+      $div_square.innerHTML = "The End!";
     }
   } else {
     $score += 1;
