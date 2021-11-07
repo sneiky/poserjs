@@ -69,7 +69,9 @@ function press_div_sq1(event) {
       }
     } else {
       alert("jojo");
-      $div_square.innerHTML = "The End!";
+      $div_square.innerHTML = "";
+      $div_h.innerHTML = "The End!";
+      $div_t.innerHTML = "";
     }
   } else {
     $score += 1;
